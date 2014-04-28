@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!-- Create a Calculator-like table. You should use a HTML 5 form for the Calculator.
+Buttons for all the numbersand operators (+, -, etc.).
+Textbox for the result.
+Do not make the same stylesas the example. -->
+<html>
+    <!--HEAD-->
+    <head>
+        <title>Calculator</title>
+        <style>
+            td
+            {
+                text-align:center;
+            }
+        </style>
+    </head>
+    <!--BODY-->
+    <body>
+        <form method="get" action="result.html">
+            <table cellspacing="1" cellpadding="5">
+                <!--ROW 1-->
+                <tr>
+                    <td colspan="4">
+                        <input type="text" style="text-align: right"/>
+                    </td>
+                </tr>
+                <!--ROW 2-->
+                <tr>
+                    <td>
+                        <input type="button" value="1"/>
+                    </td>
+                    <td>
+                        <input type="button" value="2"/>
+                    </td>
+                    <td>
+                        <input type="button" value="3"/>
+                    </td>
+                    <td>
+                        <input type="button" value="+"/>
+                    </td>
+                </tr>
+                <!--ROW 3-->
+                <tr>
+                    <td>
+                        <input type="button" value="4"/>
+                    </td>
+                    <td>
+                        <input type="button" value="5"/>
+                    </td>
+                    <td>
+                        <input type="button" value="6"/>
+                    </td>
+                    <td>
+                        <input type="button" value="-"/>
+                    </td>
+                </tr>
+                <!--ROW 4-->
+                <tr>
+                    <td>
+                        <input type="button" value="7"/>
+                    </td>
+                    <td>
+                        <input type="button" value="8"/>
+                    </td>
+                    <td>
+                        <input type="button" value="9"/>
+                    </td>
+                    <td>
+                        <input type="button" value="*"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="button" style="width: 60px;" value="0"/>
+                    </td>
+
+                    <td>
+                        <input type="button" value="."/>
+                    </td>
+                    <td>
+                        <input type="button" value="/"/>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Design1 Homepage</title>
+    <style>
+        body, header, p, img, h1 {
+            margin:0;
+            padding:0;
+        }
+
+        .wrapper {
+            margin: 30px;
+            width:800px;
+            height:400px;
+            position:relative;
+        }
+        body {
+            font-size: 20px;
+        }
+
+        img, h1 {
+            display: inline-block;
+            position:relative;
+        }
+
+        img {
+            top:30px;
+            left:30px;         
+        }
+
+        h1 {
+            top: 20px;
+            left: 100px;
+            font-size:30px;
+        }
+        nav {
+            margin:10px;
+            margin-top:40px;
+        }
+
+        table, th, td, .wrapper {
+            border: 2px solid black;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin-left:20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <img src="images.jpg" width="60" height="60" alt="logo">
+            <h1>Welcome to our Web Site</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Nav item 1</a>
+                </li>
+                <li>
+                    <a href="#">Nav item 2</a>
+                </li>
+                <li>
+                    <a href="#">Nav item 3</a>
+                </li>
+                <li>
+                    <a href="#">Nav item 4</a>
+                </li>
+            </ul>
+        </nav>
+
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th>First name</th>
+                        <th>Last name</th>
+                        <th>Score</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Doncho</td>
+                        <td>Miknov</td>
+                        <td>4.54</td>
+                    </tr>
+                    <tr>
+                        <td>Svetlin</td>
+                        <td>Nakov</td>
+                        <td>4.31</td>
+                    </tr>
+                    <tr>
+                        <td>Georgi</td>
+                        <td>Georgiev</td>
+                        <td>4.54</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+</body>
+</html>
