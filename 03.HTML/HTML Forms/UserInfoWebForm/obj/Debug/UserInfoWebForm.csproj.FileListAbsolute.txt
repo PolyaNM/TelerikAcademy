@@ -1,6 +1,0 @@
-C:\Users\User\Documents\Visual Studio 2013\Projects\HTML Forms\UserInfoWebForm\bin\UserInfoWebForm.dll.config
-C:\Users\User\Documents\Visual Studio 2013\Projects\HTML Forms\UserInfoWebForm\bin\UserInfoWebForm.dll
-C:\Users\User\Documents\Visual Studio 2013\Projects\HTML Forms\UserInfoWebForm\bin\UserInfoWebForm.pdb
-C:\Users\User\Documents\Visual Studio 2013\Projects\HTML Forms\UserInfoWebForm\obj\Debug\UserInfoWebForm.csprojResolveAssemblyReference.cache
-C:\Users\User\Documents\Visual Studio 2013\Projects\HTML Forms\UserInfoWebForm\obj\Debug\UserInfoWebForm.dll
-C:\Users\User\Documents\Visual Studio 2013\Projects\HTML Forms\UserInfoWebForm\obj\Debug\UserInfoWebForm.pdb

@@ -1,6 +1,0 @@
-C:\Users\User\Documents\Visual Studio 2013\Projects\HTML Forms\Demos\bin\Demos.dll.config
-C:\Users\User\Documents\Visual Studio 2013\Projects\HTML Forms\Demos\bin\Demos.dll
-C:\Users\User\Documents\Visual Studio 2013\Projects\HTML Forms\Demos\bin\Demos.pdb
-C:\Users\User\Documents\Visual Studio 2013\Projects\HTML Forms\Demos\obj\Debug\Demos.csprojResolveAssemblyReference.cache
-C:\Users\User\Documents\Visual Studio 2013\Projects\HTML Forms\Demos\obj\Debug\Demos.dll
-C:\Users\User\Documents\Visual Studio 2013\Projects\HTML Forms\Demos\obj\Debug\Demos.pdb

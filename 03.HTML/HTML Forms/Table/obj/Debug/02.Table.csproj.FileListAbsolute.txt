@@ -1,6 +1,0 @@
-C:\Users\User\Documents\Visual Studio 2013\Projects\HTML Forms\Table\bin\Table.dll.config
-C:\Users\User\Documents\Visual Studio 2013\Projects\HTML Forms\Table\bin\Table.dll
-C:\Users\User\Documents\Visual Studio 2013\Projects\HTML Forms\Table\bin\Table.pdb
-C:\Users\User\Documents\Visual Studio 2013\Projects\HTML Forms\Table\obj\Debug\02.Table.csprojResolveAssemblyReference.cache
-C:\Users\User\Documents\Visual Studio 2013\Projects\HTML Forms\Table\obj\Debug\Table.dll
-C:\Users\User\Documents\Visual Studio 2013\Projects\HTML Forms\Table\obj\Debug\Table.pdb

@@ -1,6 +1,0 @@
-c:\users\user\documents\visual studio 2013\Projects\Semantic Web\RefactorHTMLPage\bin\RefactorHTMLPage.dll.config
-c:\users\user\documents\visual studio 2013\Projects\Semantic Web\RefactorHTMLPage\bin\RefactorHTMLPage.dll
-c:\users\user\documents\visual studio 2013\Projects\Semantic Web\RefactorHTMLPage\bin\RefactorHTMLPage.pdb
-c:\users\user\documents\visual studio 2013\Projects\Semantic Web\RefactorHTMLPage\obj\Debug\RefactorHTMLPage.csprojResolveAssemblyReference.cache
-c:\users\user\documents\visual studio 2013\Projects\Semantic Web\RefactorHTMLPage\obj\Debug\RefactorHTMLPage.dll
-c:\users\user\documents\visual studio 2013\Projects\Semantic Web\RefactorHTMLPage\obj\Debug\RefactorHTMLPage.pdb
