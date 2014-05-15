@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task1</title>
+    <link href="style.css" rel="stylesheet" />
+    <script>
+        function isNumber(input) {
+            return !isNaN(parseFloat(input)) && isFinite(input)
+        }
+
+        function exchangeValues() {
+            var inputA = document.getElementById('firstNum').value;
+            var inputB = document.getElementById('secondNum').value;
+            var result;
+
+            if (isNumber(inputA) && isNumber(inputB)) {
+                var a = parseFloat(inputA);
+                var b = parseFloat(inputB);
+                if (a > b) {
+                    var c = a;
+                    a = b;
+                    b = c;                 
+                }
+                result = "After the exchange: First number = " + a + " Second number = " + b;
+            }
+            else {
+                result = "Error!Check your input!"
+            }
+
+        document.getElementById('result').innerHTML = result;
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <p>Write an if statement that examines two integer variables and exchanges their values if the first one is greater than the second one.</p>
+        <label for="firstNum">First Number</label>
+        <input type="text" id="firstNum" autofocus="autofocus" placeholder="Enter an integer number" />
+        <label for="secondNum">Second Number</label>
+        <input type="text" id="secondNum" placeholder="Enter an integer number" />
+        <button onclick="exchangeValues()">Exchange</button>
+    </div>
+    <div id="result"></div>
+</body>
+</html>

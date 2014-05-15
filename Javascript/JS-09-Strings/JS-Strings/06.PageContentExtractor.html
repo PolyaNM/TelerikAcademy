@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task 6</title>
+    <link href="style.css" rel="stylesheet" />
+    <!--Write a function that extracts the content of a html page given as text. The function should return anything that is in a tag, without the tags:
+        <html><head><title>Sample site</title></head><body><div>text<div>more text</div>and more...</div>in body</body></html> -->
+</head>
+<body onload="getInputData()">
+    <p>Write a function that extracts the content of a html page given as text. The function should return anything that is in a tag, without the tags. The input will be generated automatically!</p>
+    <textarea id="inputText"></textarea>
+    <br>
+    <button onclick="getContent()">Extract content!</button>
+    <script>
+        // Inputs default text - the script with this function has to be in the body!
+        function getInputData() {
+            document.getElementById('inputText').value = "<html><head><title>Sample site</title></head><body><div>text<div>more text</div>and more...</div>in body</body></html>";
+        }
+
+        function getContent() {
+            var textWithTags = document.getElementById('inputText').value;
+
+            var inTag = false;
+            var textWithoutTags = "";
+            for (var index = 0; index < textWithTags.length; index++) {
+                if (textWithTags[index] === "<") {
+                    inTag = true;
+                }
+                else if (textWithTags[index] === ">") {
+                    inTag = false;
+                }
+                else if (!inTag) {
+                    textWithoutTags += textWithTags[index];
+                }              
+            }
+
+            //Output
+            var newDiv = document.createElement('div');
+            newDiv.innerHTML = textWithoutTags;
+            document.body.appendChild(newDiv);
+        }
+    </script>
+</body>
+</html>

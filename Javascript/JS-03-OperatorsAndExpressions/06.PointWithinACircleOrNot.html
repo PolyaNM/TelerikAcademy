@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Point within a circle</title>
+    <link href="style.css" rel="stylesheet" />
+    <script>
+        function isNumber(input) {
+            return !isNaN(parseFloat(input)) && isFinite(input)
+        }
+
+        function checkPointPosition() {
+            var inputX = document.getElementById('inputX').value;
+            var inputY = document.getElementById('inputY').value;
+            var result;
+
+            if (isNumber(inputX) && isNumber(inputY)) {
+                var x = parseFloat(inputX);
+                var y = parseFloat(inputY);
+                var distance = Math.sqrt(x * x + y * y);
+                var isInTheCircle = distance <= 5; // In/On the circle. If we want to check if the point is only IN the circle then we`ll use "<"
+                result = "The point with coordinates (" + x + "," + y + ") " + (isInTheCircle ? "is" : "is NOT") + " in the Circle K(0,5).";
+            }
+            else {
+                result = "Invalid input! Check your coordinates!";
+            }
+
+            document.getElementById('result').innerHTML = result;
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <p>Write an expression that checks if given point (x,  y) is within a circle K(O, 5).</p>
+        <p>Enter the coordinates of the point.</p>
+        <label for="inputX">X coordinate: </label>
+        <input type="text" id="inputX" placeholder="Enter an integer number" autofocus  />
+        <label for="inputY">Y coordinate: </label>
+        <input type="text" id="inputY" placeholder="Enter an integer number" />
+        <button onclick="checkPointPosition()">Check</button>
+    </div>  
+    <div id="result"></div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task 7</title>
+    <link href="style.css" rel="stylesheet" />
+    <style>
+        input {
+            width: 20%;
+        }
+    </style>
+    <!--Write a script that parses an URL address given in the format:[protocol]://[server]/[resource]
+           and extracts from it the [protocol], [server] and [resource] elements. Return the elements in a JSON object.For example from the URL http://www.devbg.org/forum/index.php the following information should be extracted:
+           {protocol: "http",
+           server: "www.devbg.org",
+           resource: "/forum/index.php"} -->
+</head>
+<body>
+    <p>Write a script that parses an URL address given in the format:[protocol]://[server]/[resource] and extracts from it the [protocol], [server] and [resource] elements. Return the elements in a JSON object.</p>
+    <label for="input">URL: </label>
+    <input type="text" id="input" autofocus="autofocus" value="http://www.devbg.org/forum/index.php" />
+    <button onclick="extractURLElements()">Extract!</button>
+    <script>
+        function extractURLElements() {
+            var url = document.getElementById('input').value;
+
+            var endIndexProtocol = url.indexOf("://");
+            var protocolStr = url.substring(0, endIndexProtocol);
+
+            var indexSlashAfterServer = url.indexOf("/", endIndexProtocol + 3);
+            var serverStr = url.substring(endIndexProtocol + 3, indexSlashAfterServer);
+
+            var resourceStr = url.substring(indexSlashAfterServer);
+
+            var output = {
+                protocol: protocolStr,
+                server: serverStr,
+                resource: resourceStr
+            }
+
+            //Output
+            var newDiv = document.createElement('div');
+            newDiv.innerHTML = JSON.stringify(output);
+            document.body.appendChild(newDiv);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Trapezoid`s area</title>
+    <link href="style.css" rel="stylesheet" />
+    <script>
+        function isNumber(input) {
+            return !isNaN(parseFloat(input)) && isFinite(input)
+        }
+
+        function calculateTrapezoidArea() {
+            var inputA = document.getElementById('sideA').value;
+            var inputB = document.getElementById('sideB').value;
+            var inputC = document.getElementById('height').value;
+            var result;
+
+            if (isNumber(inputA) && isNumber(inputB) && isNumber(inputC)) {
+                var a = parseFloat(inputA);
+                var b = parseFloat(inputB);
+                var h = parseFloat(inputC);
+                result = "The trapezoid's area is: " + ((a + b) / 2) * h;
+            }
+            else {
+                var result = "Error! Check your input values!";
+            }
+
+            document.getElementById('result').innerHTML = result;
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <p>Write an expression that calculates trapezoid's area by given sides a and b and height h.</p>
+        <label for="sideA">Side A: </label>
+        <input type="text" id="sideA" autofocus="autofocus" placeholder="Enter an integer number" />
+        <label for="sideB">Side B: </label>
+        <input type="text" id="sideB" placeholder="Enter an integer number" />
+        <label for="height">Height: </label>
+        <input type="text" id="height" placeholder="Enter an integer number" />
+        <button onclick="calculateTrapezoidArea()">Calculate</button>
+    </div>
+    <div id="result"></div>
+</body>
+</html>

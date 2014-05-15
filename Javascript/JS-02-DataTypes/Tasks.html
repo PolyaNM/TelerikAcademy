@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Data Types</title>
+</head>
+<body>
+    <script>
+        //Task 1 - Assign all the possible JavaScript literals to different variables.
+        var intLiteral = 20;
+        var floatLiteral = 1.6;
+        var stringLiteral = 'little';
+        var boolLiteral = true;
+        var arrayLiteral = [1, 2, 3];
+        var objectLiteral = {
+            model: 'Hyundai',
+            year: 2010
+        }
+		var functionLit = function () { alert('Bau'); };
+
+        //Task 2 - Create a string variable with quoted text in it. For example: "How you doin'?", Joey said.
+        var quotedText = '"How you doin\'?", Joey said.';  // escaping the ' symbol.
+
+        //Task 3 - Try typeof on all variables you created.
+        function getTypeOfVariable(variable) {
+            var result = 'Type of ' + variable + ' ==> ' + typeof(variable);
+            var newDiv = document.createElement('div');
+            newDiv.innerHTML = result;
+            document.body.appendChild(newDiv);
+        }
+
+        getTypeOfVariable(intLiteral); // number
+        getTypeOfVariable(floatLiteral); // number
+        getTypeOfVariable(stringLiteral); // string
+        getTypeOfVariable(boolLiteral); // boolean
+        getTypeOfVariable(arrayLiteral); // object
+        getTypeOfVariable(objectLiteral); //object
+		getTypeOfVariable(functionLit); //function
+
+        //Task 4 - Create null, undefined variables and try typeof on them.
+        var nullVar = null;
+        var undefinedVar = undefined;
+        var varNaN = NaN;
+
+        getTypeOfVariable(nullVar); //object
+        getTypeOfVariable(undefinedVar); //undefined
+        getTypeOfVariable(varNaN); //number
+
+    </script>
+</body>
+</html>

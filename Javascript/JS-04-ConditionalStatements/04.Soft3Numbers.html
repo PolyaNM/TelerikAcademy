@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task4</title>
+    <link href="style.css" rel="stylesheet" />
+    <script>
+        function isNumber(input) {
+            return !isNaN(parseFloat(input)) && isFinite(input)
+        }
+
+        function sortNumbers() {
+            var inputA = document.getElementById('firstNum').value;
+            var inputB = document.getElementById('secondNum').value;
+            var inputC = document.getElementById('thirdNum').value;
+            var result;
+
+
+            if (isNumber(inputA) && isNumber(inputB) && isNumber(inputC)) {
+                var a = parseFloat(inputA);
+                var b = parseFloat(inputB);
+                var c = parseFloat(inputC);
+
+                if (a > b) {
+                    if (a > c) {
+                        result = a;
+                        if (b > c) {
+                            result += " " + b + " " + c;
+                        }
+                        else {
+                            result += " " + c + " " + b;
+                        }
+                    }
+                    else if (a < c) {
+                        result = c;
+                        result += ", " + a + ", " + b;
+                    }
+                }
+                else if (a < b) {
+                    if (b > c) {
+                        result = b;
+                        if (c > a) {
+                            result += ", " + c + ", " + a;
+                        }
+                        else if (c < a) {
+                            result += ", " + a + ", " + c;
+                        }
+                    }
+                    else if (b < c) {
+                        result = c + ", " + b + ", " + a;
+                    }
+                }
+                result += " are the sorted numbers in descending order.";
+            }
+            else {
+                result = "Invalid input!";
+            }
+
+            document.getElementById('result').innerHTML = result;
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <p>Sort 3 real values in descending order using nested if statements.</p>
+        <label for="firstNum">First Number</label>
+        <input type="text" id="firstNum" autofocus="autofocus" placeholder="Enter an integer number" />
+        <label for="secondNum">Second Number</label>
+        <input type="text" id="secondNum" placeholder="Enter an integer number" />
+        <label for="thirdNum">Third Number</label>
+        <input type="text" id="thirdNum" placeholder="Enter an integer number" />
+        <button onclick="sortNumbers()">Find</button>
+    </div>
+    <div id="result"></div>
+</body>
+</html>

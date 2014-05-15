@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task 3</title>
+    <link href="style.css" rel="stylesheet" />
+    <script>
+        function isNumber(n) {
+            return !isNaN(parseFloat(n)) && isFinite(n);
+        }
+
+
+        function findMaxMin() {
+            var input = document.getElementById('input').value;
+            var numberArr = input.split(' ');
+            var minNumber = parseFloat(numberArr[0]);
+            var maxNumber = parseFloat(numberArr[0]);
+
+            for (var i = 0; i < numberArr.length; i++) {
+                if (isNumber(numberArr[i])) {
+                    numberArr[i] = parseFloat(numberArr[i]);
+                    if (numberArr[i] < minNumber) {
+                        minNumber = numberArr[i]
+                    }
+                    if (numberArr[i] > maxNumber) {
+                        maxNumber = numberArr[i]
+                    }
+                }
+                else {
+                    result = 'Invalid input!'
+                    return;
+                }
+            }
+            result = 'Max: ' + maxNumber + ' Min: ' + minNumber;
+                
+
+
+            document.getElementById('result').innerHTML = result;
+
+        }
+
+    </script>
+</head>
+<body>
+    <div>
+        <p>Write a script that finds the max and min number from a sequence of numbers</p>
+		<p>== The numbers must be seperated by empty spaces. ==</p>
+        <label for="input">Numbers: </label>
+        <input type="text" id="input" autofocus="autofocus" placeholder="Enter several numbers separated by empty spaces" style="width:30%;" />
+        <button onclick="findMaxMin()" id="action">Find</button>
+    </div>
+    <div id="result"></div>
+</body>
+</html>

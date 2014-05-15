@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Divisible by 35</title>
+    <link href="style.css" rel="stylesheet" />
+    <script>
+        function divideBy35() {
+            var number = document.getElementById("input").value;
+            result = "";
+
+            if (!isNaN(parseFloat(number)) && isFinite(number)) {
+                result += "Number " + number;
+                if (number % 35 == 0) {
+                    result += " can be divided by 35 without remainder."
+                }
+                else result += " is NOT divisible by 35 without remainder."
+            }
+            else result += "Invalid input! You have not entered a number!"
+
+            document.getElementById("result").innerHTML = result;
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <p>Write a boolean expression that checks for given integer if it can be divided (without remainder) by 7 and 5 in the same time.</p>
+        <input type="text" id="input" autofocus="autofocus" placeholder="Enter an integer number" required="required"/>
+        <button onclick="divideBy35()">divide by 35</button>
+    </div>
+    <div id="result"></div>
+</body>
+</html>

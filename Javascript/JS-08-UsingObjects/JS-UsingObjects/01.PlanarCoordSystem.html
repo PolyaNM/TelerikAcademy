@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task 1</title>
+    <!--Write functions for working with shapes in  standard Planar coordinate system
+    Points are represented by coordinates P(X, Y)
+    Lines are represented by two points, marking their beginning and ending
+    L(P1(X1,Y1), P2(X2,Y2))
+    Calculate the distance between two points
+    Check if three segment lines can form a triangle
+    -->
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function getPoint(x, y) {
+            return { x: x, y: y }
+        }
+
+        function getLine(firstPoint, secondPoint) {
+            return { pointA: firstPoint, pointB: secondPoint }
+        }
+
+        function calculateDistanceBetweenTwoPoints(firstPoint, secondPoint) {
+            return Math.sqrt((firstPoint.x - secondPoint.x) * (firstPoint.x - secondPoint.x) +
+                (firstPoint.y - secondPoint.y) * (firstPoint.y - secondPoint.y));
+        }
+
+        function getCanLinesFormATriangle(firstLine, secondLine, thirdLine) {
+            var a = calculateDistanceBetweenTwoPoints(firstLine.pointA, firstLine.pointB);
+            var b = calculateDistanceBetweenTwoPoints(secondLine.pointA, secondLine.pointB);
+            var c = calculateDistanceBetweenTwoPoints(thirdLine.pointA, thirdLine.pointB);
+
+            //Returns TRUE if the lines can for a triangle.
+            return (a + b > c) && (a + c > b) && (b + c > a);
+        }
+
+        var pointA = getPoint(1, 1);
+        var pointB = getPoint(3, 2);
+        var pointC = getPoint(3, 1);
+
+        var lineA = getLine(pointA, pointB);
+        var lineB = getLine(pointB, pointC);
+        var lineC = getLine(pointC, pointA);
+
+        var result = getCanLinesFormATriangle(lineA, lineB, lineC);
+        jsConsole.writeLine("The three lines " + (result ? "CAN" : "CAN NOT") + " form a triangle.");
+    </script>
+</body>
+</html>

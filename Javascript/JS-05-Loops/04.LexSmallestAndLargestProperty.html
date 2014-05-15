@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task 4</title>
+    <link href="style.css" rel="stylesheet" />
+    <script>
+        function findSmallest(object) {
+            var smallestProp = 'z'
+            for (var property in object) {
+                if (property < smallestProp) {
+                    smallestProp = property;
+                }
+             
+            }
+
+            var newDiv = document.createElement('div');
+            document.body.appendChild(newDiv);
+            newDiv.innerHTML += 'Smalles property in ' + object + ' : ' + smallestProp;
+        }
+
+        function findBiggest(object) {
+            var biggestProp = 'a';
+            for (var property in object) {
+                if (property > biggestProp) {
+                    biggestProp = property;
+                }
+            }
+
+            var newDiv = document.createElement('div');
+            document.body.appendChild(newDiv);
+            newDiv.innerHTML = 'Biggest property in ' + object + ' : ' + biggestProp;
+            
+        }
+
+        function findMaxMinProp(object) {
+            findBiggest(object);
+            findSmallest(object);
+        }     
+    </script>
+</head>
+<body>
+    <div>
+        <p>Write a script that finds the lexicographically smallest and largest property in document, window and navigator objects</p>
+        <button onclick="findMaxMinProp(document)">Document</button>
+        <button onclick="findMaxMinProp(window)">Window</button>
+        <button onclick="findMaxMinProp(navigator)">Navigator</button>
+    </div>
+    <div id="result"></div>
+</body>
+</html>

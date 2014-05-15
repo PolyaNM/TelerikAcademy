@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Prime numbers</title>
+    <link href="style.css" rel="stylesheet" />
+    <script>
+        function checkForPrime() {
+            var number = document.getElementById('input').value;
+            var result = "";
+
+            if (!isNaN(parseFloat(number)) && isFinite(number)) {
+                var divider = Math.sqrt(number);
+                result = "Number " + number + " IS a prime number";
+                for (var i = 2; i <= divider; i++) {
+                    if (number % i == 0) {
+                        result = "Number " + number + " is NOT a prime number";
+                        break;
+                    }                    
+                }          
+            }
+            else {
+                result = "Invalid input!";
+            }
+
+            document.getElementById('result').innerHTML = result;
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <p>Write an expression that checks if given positive integer number n (n <= 100) is prime. E.g. 37 is prime.</p>
+        <input type="text" id="input" autofocus="autofocus" placeholder="Enter an integer number" />
+        <button onclick="checkForPrime()">Check</button>
+    </div>
+    <div id="result"></div>
+</body>
+</html>

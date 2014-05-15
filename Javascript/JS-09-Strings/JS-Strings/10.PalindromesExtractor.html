@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task 10</title>
+    <link href="style.css" rel="stylesheet" />
+    <style>
+        input {
+            width: 30%;
+        }
+    </style>
+    <!--Write a program that extracts from a given text all palindromes, e.g. "ABBA", "lamal", "exe".-->
+</head>
+<body>
+    <p>Write a program that extracts from a given text all palindromes, e.g. "ABBA", "lamal", "exe".</p>
+    <label for="input">Text: </label>
+    <input type="text" id="input" autofocus="autofocus" value="ABBA lalal blabla exe something ror." />
+    <button onclick="extractpalindromes()">Extract!</button>
+    <script>
+        function extractpalindromes() {
+            var text = document.getElementById("input").value;
+            var arrayWords = text.split(/[\W]+/);
+            var palindromes = [];
+            
+            for (var i = 0; i < arrayWords.length; i++) {
+                var isPalindrome = true;
+                var halfWordLength = Math.floor(arrayWords[i].length / 2);
+                for (var j = 0, l = arrayWords[i].length - 1; j < halfWordLength; j++, l--) {
+
+                    if (arrayWords[i][j] != arrayWords[i][l]) {
+                        isPalindrome = false;
+                        break;
+                    }
+                }
+                if (isPalindrome) {
+                    palindromes.push(arrayWords[i]);
+                }
+            }
+
+            //Output
+            var newDiv = document.createElement('div');
+            newDiv.innerHTML = palindromes.join(" ");
+            document.body.appendChild(newDiv);
+        }
+    </script>
+</body>
+</html>

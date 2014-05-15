@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task 7</title>
+    <link href="style.css" rel="stylesheet" />
+    <script>
+        function isNumber(input) {
+            return !isNaN(parseFloat(input)) && isFinite(input)
+        }
+		
+
+
+        function findGreatestNum() {
+           
+         var numbers = [
+                document.getElementById('firstNum').value,
+                document.getElementById('secondNum').value,
+                document.getElementById('thirdNum').value,
+                document.getElementById('fourthNum').value,
+                document.getElementById('fifthNum').value
+            ]
+            var result = "Invalid Input!";
+
+            //checking the input
+            for (var i = 0; i < numbers.length; i++) {
+                if (!isNumber(numbers[i])) {
+                    alert("Invalid input!");                   
+                    return;
+                }              
+            }
+			
+			var greatestNum = Math.max.apply(Math , numbers);
+			result = "The greatest number is " + greatestNum;
+			document.getElementById('result').innerHTML = result;
+        }
+		
+    </script>
+</head>
+<body>
+    <div>
+        <p>Write a script that finds the greatest of given 5 variables.</p>
+        <label for="firstNum">First: </label>
+        <input type="text" id="firstNum" autofocus="autofocus" placeholder="Enter an integer number" onchange="CheckNumber(this)" />
+        <label for="secondNum">Second: </label>
+        <input type="text" id="secondNum" placeholder="Enter an integer number"/>
+        <label for="thirdNum">Third: </label>
+        <input type="text" id="thirdNum" placeholder="Enter an integer number"/>
+        <label for="fourthNum">Fourth: </label>
+        <input type="text" id="fourthNum" placeholder="Enter an integer number"/>
+        <label for="fifthNum">Fifth: </label>
+        <input type="text" id="fifthNum" placeholder="Enter an integer number"/>
+        <button onclick="findGreatestNum()">Find Greatest</button>
+    </div>
+    <div id="result"></div>
+</body>
+</html>

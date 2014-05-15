@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task 4</title>
+    <!--Write a function to count the number of divs on the web page.-->
+    <link href="style.css" rel="stylesheet" />
+    <script>
+        function findNumberOfDivs() {
+            var numberOfDivs = document.getElementsByTagName('div').length;
+
+            var newDiv = document.createElement('div');
+            newDiv.innerHTML = "There are " + numberOfDivs + " divs in this page! (BEFORE creating this div:))";
+            document.body.appendChild(newDiv);
+            newDiv.innerHTML += " WITH this div they are " + document.getElementsByTagName('div').length;
+        }
+    </script>
+</head>
+<body>
+    <div>Write a function that finds all the occurrences of word in a text. The search can be case sensitive or case insensitive. Use function overloading.</div>
+    <button onclick="findNumberOfDivs()">Go!</button>
+    <div id="result">Result: </div>
+    <div>:)</div>
+</body>
+</html>

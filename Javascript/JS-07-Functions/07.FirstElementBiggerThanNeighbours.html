@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task 7</title>
+    <!--Write a Function that returns the index of the first element in array that is bigger than its neighbors, or -1, if there’s no such element.-->
+    <link href="style.css" rel="stylesheet" />
+    <script src="isBiggerThanNeighbours.js"></script>
+    <script>
+        function checkAndParseInputArray(array) {
+            for (var index = 1; index < array.length - 1; index++) {
+                if (!isNaN(parseFloat(array[index])) && isFinite(array[index])) {
+                    array[index] = parseFloat(array[index]);
+                }
+                else {
+                    return 'Error';
+                }
+            }
+            return array;
+        }
+
+        function getFirstElementBiggerThanNeighbours() {
+            var arrayInput = document.getElementById('array').value.split(' ');
+            var result = '';
+
+            arrayInput = checkAndParseInputArray(arrayInput);
+            if (arrayInput !== 'Error') {
+                for (var index = 1; index < arrayInput.length - 1; index++) {
+                    if (isBiggerThanNeighbours(index, arrayInput)) {
+                        result = 'The index of the first element bigger than its neighbours is: ' + index;
+                        break;
+                    }
+                }
+                if (result == '') {
+                    result = 'There is no such element!';
+                }
+            }
+
+            var newDiv = document.createElement('div');
+            newDiv.innerHTML = result;
+            document.body.appendChild(newDiv);
+        }
+
+    </script>
+</head>
+<body>
+    <p>Write a Function that returns the index of the first element in array that is bigger than its neighbors, or -1, if there’s no such element.</p>
+    <p> == use spaces to separate the elements of the array</p>
+    <p> == Example: 1 5 -6 7 5 == </p>
+    <label for="array">Array: </label>
+    <input type="text" id="array" autofocus="autofocus" value="2 4 3 8 9 3 2 6 2 8 2 2" />
+    <button onclick="getFirstElementBiggerThanNeighbours()">Go!</button>
+</body>
+</html>

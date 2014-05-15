@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task 2</title>
+    <!--Write a function that reverses the digits of given decimal number. Example: 256  652-->
+    <link href="style.css" rel="stylesheet" />
+    <script>
+        function reverseDigits() {
+            var number = document.getElementById('input').value;
+            var result = "";
+            var reversdArr = [];
+            var indexArr = 0;
+
+            if (!isNaN(parseFloat(number)) && isFinite(number) && Math.floor(number) == number) {
+                number = parseInt(number);
+                while (number !== 0) {
+                    reversdArr[indexArr] = number % 10;
+                    number = Math.floor(number / 10);       
+                    indexArr++;
+                }
+                result = reversdArr.join("");
+
+            }
+            else {
+                result = 'Invalid Input!';
+            }
+
+            var newDiv = document.createElement('div');
+            newDiv.innerHTML = 'Result: ' + result;
+            document.body.appendChild(newDiv);
+        }
+    </script>
+</head>
+<body>
+    <p>Write a function that reverses the digits of given decimal number. Example: 256  652</p>
+    <label for="input">Number: </label>
+    <input type="text" id="input" autofocus="autofocus" placeholder="Enter integer number" />
+    <button onclick="reverseDigits()">Reverse!</button>
+</body>
+</html>

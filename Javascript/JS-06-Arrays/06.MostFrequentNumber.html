@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task 6</title>
+    <link href="style.css" rel="stylesheet" />
+    <script>
+        function findMostFrequentNumber() {
+            var array = document.getElementById('input').value.split(' ');
+            var arrayLength = array.length;
+
+            for (var index = 0; index < arrayLength; index++) {
+                array[index] = parseFloat(array[index]);
+            }
+
+            var mostFreqElement = array[0];
+            var maxCount = 1;
+            for (var i = 0; i < arrayLength; i++) {
+                var count = 0;
+                for (var j = 0; j < arrayLength; j++) {
+                    if (array[i] == array[j]) {
+                        count++;
+                    }
+
+                }
+                if (count > maxCount) {
+                    maxCount = count;
+                    mostFreqElement = array[i];
+                }
+            }
+
+            var newDiv = document.createElement('div');
+            document.body.appendChild(newDiv);
+            newDiv.innerHTML = 'The most frequent number is --> ' + mostFreqElement + ', repeated ' + maxCount + ' times.';
+        }
+
+    </script>
+</head>
+<body>
+    <p>Write a program that finds the most frequent number in an array.</p>
+    <p> == use spaces to separate the elements of the array</p>
+    <p> == Example: 1 5 -6 7 5 == </p>
+    <label for="input">Array: </label>
+    <input type="text" id="input" autofocus="autofocus" placeholder="Enter the elements of the array" value="3 3 6 9 9 6 9" />
+    <button onclick="findMostFrequentNumber()">Find!</button>
+</body>
+</html>

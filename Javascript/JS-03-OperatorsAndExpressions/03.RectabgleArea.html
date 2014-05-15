@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Rectangle area</title>
+    <link href="style.css" rel="stylesheet" />
+    <script>
+        function isNumber(input) {
+            return !isNaN(parseFloat(input)) && isFinite(input)
+        }
+
+        function calculateArea() {
+            var height = document.getElementById('inputHeight').value;
+            var width = document.getElementById('inputWidth').value;
+            var result;
+
+            if (isNumber(height) && isNumber(width)) {
+                result = "The rectangle's area is " + (height * width);
+            }
+            else {
+                result = "Invalid input! Check the entered width and height!";
+            }         
+            document.getElementById('result').innerHTML = result;
+        }
+    </script>
+</head>
+<body>   
+    <div>
+        <p>Write an expression that calculates rectangle’s area by given width and height.</p>
+        <label for="inputHeight">Rectangle's height</label>
+        <input type="text" id="inputHeight" placeholder="Enter height" autofocus="autofocus"/>
+        <label for="inputWidth">Rectangle's width</label>
+        <input type="text" id="inputWidth" placeholder="Enter width" />
+        <button onclick="calculateArea()">Calculate</button>
+    </div>
+    <div id="result"></div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task 5</title>
+    <!--Write a function that counts how many times given number appears in given array. Write a test function to check if the function is working correctly.-->
+    <link href="style.css" rel="stylesheet" />
+    <script>
+        function countOccurrencesOfNumber() {
+            var arrayInput = document.getElementById("array").value.split(" ");
+            var numberToSearchFor = document.getElementById("number").value;
+            var counter = 0;
+            var result = "";
+
+            //Checking and parsing the input data
+            if (!isNaN(parseFloat(numberToSearchFor)) && isFinite(numberToSearchFor)) {
+                numberToSearchFor = parseFloat(numberToSearchFor);
+            } else {
+                result = "error";
+                
+            }
+
+            for (var index = 0; index < arrayInput.length; index++) {
+                if (!isNaN(parseFloat(arrayInput[index])) && isFinite(arrayInput[index])) {
+                    arrayInput[index] = parseFloat(arrayInput[index]);
+                    //Counting the occurrences of the number
+                    if (arrayInput[index] == numberToSearchFor) {
+                        counter++;
+                    }
+                } else {
+                    result = "error";
+                    break;
+                    
+                }
+            }
+
+            if (result !== "error") {
+                result = "The number appears " + counter + " time(s) in the array.";
+            } 
+
+            var newDiv = document.createElement('div');
+            newDiv.innerHTML = result;
+            document.body.appendChild(newDiv);
+        }
+    </script>
+</head>
+<body>
+    <p>Write a function that counts how many times given number appears in given array. Write a test function to check if the function is working correctly.</p>
+    <p> == use spaces to separate the elements of the array</p>
+    <p> == Example: 1 5 -6 7 5 == </p>
+    <label for="array">Array: </label>
+    <input type="text" id="array" autofocus="autofocus" value ="2 4 3 8 9 3 2 6 2 8 2 2"/>
+    <label for="number">Number to search: </label>
+    <input type="text" id="number" value="2" />
+    <button onclick="countOccurrencesOfNumber()">Go!</button>
+</body>
+</html>

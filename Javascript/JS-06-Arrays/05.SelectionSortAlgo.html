@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Selection Sort Algorithm</title>
+    <link href="style.css" rel="stylesheet" />
+    <script>
+        function sortArray() {
+            var array = document.getElementById('input').value.split(' ');
+
+            var resultArray = [];
+
+            //Parsing the input
+            for (var index = 0; index < array.length; index++) {
+                array[index] = parseFloat(array[index]);
+            }
+
+            for (var i = 0, arrayLength = array.length; i < arrayLength; i++) {
+                var currMin = 0;
+                for (var j = 1; j < arrayLength; j++) {
+                    if (array[currMin] > array[j]) {
+                        currMin = j;
+                    }
+                }
+                
+                resultArray.push(array[currMin]);
+                array.splice(currMin, 1);
+            }
+
+            var newDiv = document.createElement('div');
+            document.body.appendChild(newDiv);
+            newDiv.innerHTML = resultArray.join(', ');
+        }
+    </script>
+</head>
+<body>
+    <p>Sorting an array means to arrange its elements in increasing order. Write a script to sort an array. Use the "selection sort" algorithm: Find the smallest element, move it at the first position, find the smallest from the rest, move it at the second position, etc.</p>
+    <p> == use spaces to separate the elements of the array</p>
+    <p> == Example: 1 5 -6 7 5 == </p>
+    <label for="input">Unsorted Array: </label>
+    <input type="text" id="input" autofocus="autofocus" placeholder="Enter the elements of the array" value="1 3 6 -5 2 6 9" />
+    <button onclick="sortArray()">Sort!</button>
+</body>
+</html>

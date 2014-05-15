@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task 5</title>
+    <!--Write a function that replaces non breaking white-spaces in a text with &nbsp;-->
+    <link href="style.css" rel="stylesheet" />
+    <style>
+        input {
+            width: 60%;
+        }
+        textarea {
+            width: 62%;
+        }
+    </style>
+    <script>
+        function replaceWhiteSpaces() {
+            var text = document.getElementById('input').value;
+            var stringToReplaceWith = "&nbsp";
+
+            var result = '';
+            for (var i = 0; i < text.length; i++) {
+                if (text[i] == " ") {
+                    result += stringToReplaceWith;
+                }
+                else {
+                    result += text[i];
+                }
+            }
+
+            var newTextarea = document.createElement('textarea');
+            newTextarea.value = result;
+            document.body.appendChild(newTextarea);
+        }
+    </script>
+</head>
+<body>
+    <p>Write a function that replaces non breaking white-spaces in a text with &nbsp;.</p>
+    <label for="input">Text: </label>
+    <input type="text" id="input" autofocus="autofocus" value="We are living in a yellow submarine.We don't have anything else." />
+    <button onclick="replaceWhiteSpaces()">Replace!</button>
+    <br>
+</body>
+</html>

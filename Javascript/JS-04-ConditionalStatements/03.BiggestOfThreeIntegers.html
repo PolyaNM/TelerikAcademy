@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task3</title>
+    <link href="style.css" rel="stylesheet" />
+    <script>
+        function isNumber(input) {
+            return !isNaN(parseFloat(input)) && isFinite(input)
+        }
+
+        function findBiggest() {
+            var inputA = document.getElementById('firstNum').value;
+            var inputB = document.getElementById('secondNum').value;
+            var inputC = document.getElementById('thirdNum').value;
+            var result;
+
+            if (isNumber(inputA) && isNumber(inputB) && isNumber(inputC)) {
+                var a = parseFloat(inputA);
+                var b = parseFloat(inputB);
+                var c = parseFloat(inputC);
+
+                if (a > b) {
+                    if (a > c) {
+                        result = a;
+                    }
+                    else {
+                        result = c;
+                    }
+                }
+                else {
+                    if (b > c) {
+                        result = b;
+                    }
+                    else {
+                        result = c;
+                    }
+                }               
+                result += " is the biggest number among the three!";
+            }
+            else {
+                result = "Invalid input!";
+            }
+
+            document.getElementById('result').innerHTML = result;
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <p>Write a script that finds the biggest of three integers using nested if statements.</p>
+        <label for="firstNum">First Number</label>
+        <input type="text" id="firstNum" autofocus="autofocus" placeholder="Enter an integer number"/>
+        <label for="secondNum">Second Number</label>
+        <input type="text" id="secondNum" placeholder="Enter an integer number" />
+        <label for="thirdNum">Third Number</label>
+        <input type="text" id="thirdNum" placeholder="Enter an integer number" />
+        <button onclick="findBiggest()">Find</button>
+    </div>
+    <div id="result"></div>
+</body>
+</html>

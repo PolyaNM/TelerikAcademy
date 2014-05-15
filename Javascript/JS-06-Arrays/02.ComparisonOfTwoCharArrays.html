@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task 2</title>
+    <link href="style.css" rel="stylesheet" />
+    <script>
+        function compareTwoArrays() {
+            var array1 = document.getElementById('first').value.split(' ');
+            var array2 = document.getElementById('second').value.split(' ');
+            var result;
+            var areEqual = true;
+
+            var minLength = array1.length;
+            if (minLength > array2.length) {
+                minLength = array2.length
+            }
+
+            for (var i = 0; i < minLength; i++) {
+                if (array1[i] < array2[i])  {
+                    result = array1.join(',') + ' is before ' + array2.join(',') + ' lexicographically!';
+                    areEqual = false;
+                    break;
+                }
+                else if (array1[i] > array2[i]) {
+                    result = array1.join(',') + ' is after ' + array2.join(',') + ' lexicographically!';
+                    areEqual = false;
+                    break;
+                }
+            }
+
+            if (areEqual) {
+                if (array1.length > array2.length) {
+                    result = array1.join(',') + ' is after ' + array2.join(',') + ' lexicographically!';
+                }
+                else if (array1.length < array2.length) {
+                    result = array1.join(',') + ' is before ' + array2.join(',') + ' lexicographically!';
+                }
+                else result = 'The two arrays are equal!';
+            }
+
+            var newDiv = document.createElement('div');
+            document.body.appendChild(newDiv);
+            newDiv.innerHTML = result;
+        }
+        </script>
+</head>
+<body>
+    <p>Write a script that compares two char arrays lexicographically (letter by letter).</p>
+    <p> == use spaces to separate the elements of the arrays == </p>
+    <p> == Example: a b v g d == </p>
+    <label for=" first">First char array: </label>
+    <input type="text" id="first" autofocus="autofocus" placeholder="Enter Char Array 1" />
+    <label for=" second">Second char array: </label>
+    <input type="text" id="second" placeholder="Enter Char Array 2" />
+    <button onclick="compareTwoArrays()">Compare!</button>
+</body>
+</html>

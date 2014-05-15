@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task 2</title>
+    <!--Write a JavaScript function to check if in a given expression the brackets are put correctly.Example of correct expression: ((a+b)/5-d).Example of incorrect expression: )(a+b)).-->
+    <link href="style.css" rel="stylesheet" />
+    <script>
+        function checkBrackets() {
+            var input = document.getElementById("input").value;
+            var leftBraketsCount = checkBraketsCount(input, "(");
+            var rightBraketsCount = checkBraketsCount(input, ")");
+            var result = "";
+
+            if (leftBraketsCount === rightBraketsCount) {
+                result = "The brakets are put correctly!";
+            }
+            else {
+                result = "The brakets are NOT put correctly! There are " + leftBraketsCount + " left brakets and " + rightBraketsCount + " right!";
+            }
+
+            var newDiv = document.createElement('div');
+            newDiv.innerHTML = result;
+            document.body.appendChild(newDiv);
+
+        }
+        function checkBraketsCount(expression, braketType) {
+            var count = 0;
+            for (var i = 0; i < expression.length; i++) {
+                if (expression[i] == braketType) {
+                    count++;
+                }
+            }
+            return count;
+        }
+    </script>
+</head>
+<body>
+    <p>Write a JavaScript function to check if in a given expression the brackets are put correctly.Example of correct expression: ((a+b)/5-d).Example of incorrect expression: )(a+b)).</p>
+    <label for="input">Expression: </label>
+    <input type="text" id="input" autofocus="autofocus" value="((a+b())" />
+    <button onclick="checkBrackets()">Check!</button>
+</body>
+</html>

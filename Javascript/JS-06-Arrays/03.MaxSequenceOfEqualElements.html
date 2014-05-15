@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task 3</title>
+    <link href="style.css" rel="stylesheet" />
+    <script>
+        function findMaxSequenceOfEqualElements() {
+            var array = document.getElementById('input').value.split(' ');
+            var arrLength = array.length;
+            var count = 1;
+            var maxCount = 1;
+            var maxNumber = array[0];
+
+            for (var i = 0; i < arrLength - 1; i++) {
+                if (array[i] == array[i + 1]) {
+                    count++;
+                    if (count > maxCount) {
+                        maxCount = count;
+                        maxNumber = array[i];
+                    }
+                }
+                else {
+                count = 1;
+                }
+            }
+        
+        result = new Array(maxCount);
+        for (var j = 0; j < maxCount; j++) {
+            result[j] = maxNumber;
+        }
+
+        var newDiv = document.createElement('div');
+        document.body.appendChild(newDiv);
+        newDiv.innerHTML = result.join(', ');
+        }
+    </script>
+</head>
+<body>
+    <p>
+        Write a script that finds the maximal sequence of equal elements in an array. Example: {2, 1, 1, 2, 3, 3, 2, 2, 2, 1}  {2, 2, 2}.
+    </p>
+    <p> == use spaces to separate the elements of the array</p>
+    <p> == Example: 1 5 -6 7 5 == </p>
+    <label for="input">Array: </label>
+    <input type="text" id="input" autofocus="autofocus" placeholder="Enter the elements of the array" value="2 2 7 2 9 9 9" />
+    <button onclick="findMaxSequenceOfEqualElements()">Find!</button>
+</body>
+</html>

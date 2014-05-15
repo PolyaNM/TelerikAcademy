@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Coordinates</title>
+    <link href="style.css" rel="stylesheet" />
+    <script>
+        function isNumber(input) {
+            return !isNaN(parseFloat(input)) && isFinite(input)
+        }
+
+        function getPointPosition() {
+            var inputX = document.getElementById('inputX').value;
+            var inputY = document.getElementById('inputY').value;
+            var result;
+
+            if (isNumber(inputX) && isNumber(inputY)) {
+                var x = parseFloat(inputX);
+                var y = parseFloat(inputY);
+
+                /*In Circle?*/
+                var newX = x - 1;
+                var newY = y - 1;
+                var distance = Math.sqrt(newX * newX + newY * newY);
+                var inCircle = distance <= 3;
+
+                /*In Rectangle?*/
+                var recX = -1;
+                var recY = 1;
+                var inRect = (x >= recX && x <= recX + 6) && (y <= recY && y >= recY - 2);
+
+                /*Output*/
+                var circle = inCircle ? "IN" : "OUT of";
+                var rect = inRect ? "IN" : "OUT of";
+                result = "The point is " + circle + " the Circle K((1,1),3) and " + rect + " the Rectangle R!";
+            }
+            else {
+                result = "Invalid input!";
+            }
+
+            document.getElementById('result').innerHTML = result;
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <p>Write an expression that checks for given point (x, y) if it is within the circle K( (1,1), 3) and out of the rectangle R(top=1, left=-1, width=6, height=2).</p>
+        <label for="inputX">X Coordinate: </label>
+        <input type="text" id="inputX" autofocus="autofocus" placeholder="Enter an integer number"/>
+        <label for="inputY">Y Coordinate: </label>
+        <input type="text" id="inputY" placeholder="Enter an integer number" />
+        <button onclick="getPointPosition()">Calculate</button>
+    </div>
+    <div id="result"></div>
+</body>
+</html>

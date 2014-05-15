@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Third digit is 7?</title>
+    <link href="style.css" rel="stylesheet" />
+    <script>
+        function isNumber(input) {
+            return !isNaN(parseFloat(input)) && isFinite(input)
+        }
+
+        function checkThirdDigit() {
+            var number = document.getElementById('input').value;
+            var result = "";
+
+            if (isNumber(number)) {
+                if (number / 1000 == 0) {
+                    result = "Invalid input! The entered number should have at least 3 digits."
+                }
+                else {
+                    var wholeNumber = (number / 100) | 0; // this will give us only the part before the decimal mark.
+                    var thirdDigitIsSeven = wholeNumber % 10 == 7;
+                    result = "The third digit (right-to-left) of the number " + number + (thirdDigitIsSeven ? " is " : " is NOT ") + "7";
+                }
+            }
+            else {
+                result = "You have not enetered a valid integer number!"
+            }
+            document.getElementById('result').innerHTML = result;
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <p>Write an expression that checks for given integer if its third digit (right-to-left) is 7. E. g. 1732 ? true.</p>
+        <input type="text" id="input" placeholder="Enter an integer number" autofocus />
+        <button onclick="checkThirdDigit()">Check third digit</button>
+    </div>
+    <div id="result"></div>
+</body>
+</html>

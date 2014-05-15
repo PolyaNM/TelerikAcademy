@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task 9</title>
+    <link href="style.css" rel="stylesheet" />
+    <style>
+        input {
+            width: 35%;
+        }
+    </style>
+    <!--Write a function for extracting all email addresses from given text. All substrings that match the format <identifier>@<host>…<domain> should be recognized as emails. Return the emails as array of strings.-->
+</head>
+<body>
+    <p>Write a function for extracting all email addresses from given text.</p>
+    <label for="input">Text: </label>
+    <input type="text" id="input" autofocus="autofocus" value="Blabla rio@abv.bg sample text un@gmail.com for sampling mail@mail.com" />
+    <button onclick="extractEmails()">Extract!</button>
+    <script>
+        function extractEmails() {
+            var text = document.getElementById("input").value;
+            var regExpr = /([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9._-]+)/gi;
+            var emails = text.match(regExpr);
+            var result = "";
+
+            if (emails.length == 0) {
+                result = "No emails in this text!";
+                return;
+            } else {
+                result = emails.join(" <--> ");
+            }
+
+            //Output
+            var newDiv = document.createElement('div');
+            newDiv.innerHTML = result;
+            document.body.appendChild(newDiv);
+        }
+    </script>
+</body>
+</html>

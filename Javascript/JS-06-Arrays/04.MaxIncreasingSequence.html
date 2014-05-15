@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task 4</title>
+    <link href="style.css" rel="stylesheet" />
+    <script>
+        function findMaxIncreasingSequence() {
+            var array = document.getElementById('input').value.split(' ');
+            var arrLength = array.length;
+
+            //Parsing the input
+            for (var i = 0; i < arrLength; i++) {
+                array[i] = parseFloat(array[i]);
+            }
+          
+            var count = 1;
+            var maxCount = 1;
+            var positionOfLastElement = 0;
+            for (var index = 0; index < arrLength - 1; index++) {
+                if (array[index] < array[index + 1]) {
+                    count++;
+                    if (count > maxCount) {
+                        maxCount = count;
+                        positionOfLastElement = index + 1;
+                    }
+                }
+                else {
+                    count = 1;
+                }
+            }
+
+            var result = '';
+            for (var indexArr = positionOfLastElement - maxCount + 1; indexArr <= positionOfLastElement; indexArr++) {
+                result += array[indexArr] + ' ';
+            }
+
+            var newDiv = document.createElement('div');
+            document.body.appendChild(newDiv);
+            newDiv.innerHTML = result;
+        }
+    </script>
+</head>
+<body>
+    <p>Write a script that finds the maximal increasing sequence in an array. Example: {3, 2, 3, 4, 2, 2, 4} à {2, 3, 4}.</p>
+    <p> == use spaces to separate the elements of the array</p>
+    <p> == Example: 1 5 -6 7 5 == </p>
+    <label for="input">Array: </label>
+    <input type="text" id="input" autofocus="autofocus" placeholder="Enter the elements of the array" value="1 3 6 -5 2 6 9"/>
+    <button onclick="findMaxIncreasingSequence()">Find!</button>
+</body>
+</html>

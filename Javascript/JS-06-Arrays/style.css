@@ -1,0 +1,22 @@
+﻿body {
+    background-color: #d0f1fb;
+}
+
+p:first-of-type {
+    font-family: Tahoma;
+    font-size: 16px;
+    font-style: italic;
+    color: #0a816b;
+    font-weight: bold;
+}
+
+#result {
+    margin-top: 10px;
+    color: #0a816b;
+    font-weight: bold;
+}
+
+input, button {
+    border: 1px ridge #0a816b;
+    padding: 5px 10px;
+}

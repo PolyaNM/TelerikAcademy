@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task 6</title>
+    <!--Write a function that groups an array of persons by age, first or last name. The function must return an associative array, with keys - the groups, and values -arrays with persons in this groups. Use function overloading (i.e. just one function)-->
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function grouped(persons, key) {
+            var result = {};
+            for (var prop in persons[0]) {
+                if (prop === key) {
+                    for (var i = 0; i < persons.length; i++) {
+                        if (!result[persons[i][key]]) {
+                            result[persons[i][key]] = [];
+                        }
+                        result[persons[i][key]].push(persons[i]);
+                    }
+                }
+            }
+            return result;
+        }
+
+        //Print groups
+        function printResult(assArray) {
+            for (var prop in assArray) {
+                jsConsole.writeLine(prop + ": ");
+                for (var i = 0; i < assArray[prop].length; i++) {
+                    jsConsole.writeLine("First Name: " + assArray[prop][i].firstName + " Last Name: " + assArray[prop][i].lastName + " Age: " + assArray[prop][i].age);
+                }
+            }
+        }
+
+        var persons = [
+            { firstName: "Petya", lastName: "Atova", age: 24 },
+            { firstName: "Georgi", lastName: "Marinov", age: 20 },
+            { firstName: "Stancho", lastName: "Stefanov", age: 14 },
+            { firstName: "Yordan", lastName: "Velev", age: 23 },
+            { firstName: "Simon", lastName: "Mimov", age: 17 },
+            { firstName: "Petya", lastName: "Atonova", age: 24 },
+            { firstName: "Georgi", lastName: "Martov", age: 20 },
+            { firstName: "Stancho", lastName: "Stefkov", age: 16 },
+            { firstName: "Yordan", lastName: "Vetov", age: 23 },
+            { firstName: "Simon", lastName: "Mihov", age: 17 },
+            { firstName: "Rita", lastName: "Atova", age: 24 },
+            { firstName: "Mihail", lastName: "Mitev", age: 20 },
+            { firstName: "Stancho", lastName: "Popov", age: 10 },
+            { firstName: "Yordan", lastName: "Velev", age: 24 },
+            { firstName: "Simon", lastName: "Mirev", age: 17 }
+        ];
+
+        var groupedByAge = grouped(persons, "age");
+        var groupedByFirstName = grouped(persons, "firstName");
+        var groupedByLastName = grouped(persons, "lastName");
+
+        jsConsole.writeLine("== GROUPED BY FIRST NAME ==");
+        printResult(groupedByFirstName);
+        jsConsole.writeLine();
+        jsConsole.writeLine("== GROUPED BY LAST NAME ==");
+        printResult(groupedByLastName);
+        jsConsole.writeLine();
+        jsConsole.writeLine("== GROUPED BY AGE ==");
+        printResult(groupedByAge);
+    </script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task 6</title>
+    <!--Write a function that checks if the element at given position in given array of integers is bigger than its two neighbors (when such exist).-->
+    <link href="style.css" rel="stylesheet" />
+    <script src="isBiggerThanNeighbours.js"></script>
+    <script>
+        function checkIfBiggerThanNeighbours() {
+            var arrayInput = document.getElementById("array").value.split(" ");
+            var positionOfElement = document.getElementById("position").value;
+            var result = "";
+
+            //Checking and parsing the input data
+            if (!isNaN(parseFloat(positionOfElement)) && isFinite(positionOfElement) && Math.floor(positionOfElement) == positionOfElement) {
+                //convert position to int number
+                positionOfElement = positionOfElement | 0;
+            }
+            else {
+                result = "error";
+            }
+
+            for (var index = 0; index < arrayInput.length; index++) {
+                if (!isNaN(parseFloat(arrayInput[index])) && isFinite(arrayInput[index])) {
+                    arrayInput[index] = parseFloat(arrayInput[index]);
+                }
+                else {
+                    result = "error";
+                    break;
+                }
+            }
+
+            if (result == "error") {
+                result = "Invalid input!";
+            }
+            else {
+                if (positionOfElement < 0) {
+                    result = "Invalid input for position of element! Position must be bigger than 0!";
+                }
+                else if (positionOfElement == 0) {
+                    result = "The element at position [0] doesn't have two neighbours!";
+                }
+                else {
+                    if (isBiggerThanNeighbours(positionOfElement, arrayInput)) {
+                        result = "The element at position " + positionOfElement + " in the given array is BIGGER than its neighbours.";
+                    }
+                    else {
+                        result = "The element at position " + positionOfElement + " in the given array is NOT BIGGER than its neighbours.";
+                    }
+                }
+            }
+
+            var newDiv = document.createElement('div');
+            newDiv.innerHTML = result;
+            document.body.appendChild(newDiv);
+        }
+    </script>
+</head>
+<body>
+    <p>Write a function that checks if the element at given position in given array of integers is bigger than its two neighbors (when such exist).</p>
+    <p> == use spaces to separate the elements of the array</p>
+    <p> == Example: 1 5 -6 7 5 == </p>
+    <label for="array">Array: </label>
+    <input type="text" id="array" autofocus="autofocus" value="2 4 3 8 9 3 2 6 2 8 2 2" />
+    <label for="position">Position: </label>
+    <input type="text" id="position" value="4" />
+    <button onclick="checkIfBiggerThanNeighbours()">Go!</button>
+</body>
+</html>

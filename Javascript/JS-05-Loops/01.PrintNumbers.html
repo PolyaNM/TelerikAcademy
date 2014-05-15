@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task 1</title>
+    <link href="style.css" rel="stylesheet" />
+    <script>
+         function printNumbers() {
+            var number = document.getElementById('number').value;
+            var result = '';
+
+            if (!isNaN(parseFloat(number)) && isFinite(number)) {
+                for (var i = 1; i <= number; i++) {
+                    result += i + ' ';
+                }
+            }
+            else {
+                result = 'Invalid input!'
+            }
+
+            document.getElementById('result').innerHTML = result;
+        }
+
+    </script>
+</head>
+<body>
+    <div>
+        <p>Write a script that prints all the numbers from 1 to N.</p>
+        <label for="number">Number</label>
+        <input type="text" id="number" autofocus="autofocus" placeholder="Enter an integer number" />
+        <button onclick="printNumbers()" id="action">Print</button>
+    </div>
+    <div id="result"></div>
+</body>
+</html>

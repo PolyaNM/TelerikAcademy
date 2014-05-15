@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task 3</title>
+    <!--Write a function that finds all the occurrences of word in a text. The search can case sensitive or case insensitive. Use function overloading.-->
+    <link href="style.css" rel="stylesheet" />
+    <script>
+        function searchForWordInText() {
+
+            var isCaseSensitiveInput = document.getElementById("sensitive").checked; //TRUE if it is case sensitive
+            var inputText = "PANDA also known as panda bear or the giant panda to distinguish it from the unrelated red panda, is a bear native to south central China.";
+            var inputWordToSearch = document.getElementById("input").value.toString();
+            var arrWords = [];
+
+            arrWords = getWords(inputText);
+
+            var newDiv = document.createElement('div');
+            newDiv.innerHTML = countOccurrencesOfWord(arrWords, inputWordToSearch, isCaseSensitiveInput) + " time(s) - function with 3 parameters. The data from the ckeckbox is used ==> according to the data case sensitive/insensitive search is performed!";
+            document.body.appendChild(newDiv);
+
+            var newDiv1 = document.createElement('div');
+            newDiv1.innerHTML = countOccurrencesOfWord(arrWords, inputWordToSearch) + " time(s) - function with 2 parameters. The data from the ckeckbox is not used ==> performing case insensitive search!";
+            document.body.appendChild(newDiv1);
+        }
+
+        function getWords(text) {
+            var words = text.split(/[\s\.,-?!)(]/);
+            for (var i = 0; i < words.length; i++) {
+                if (words[i] == "") {
+                    words.splice(i, 1);
+                }
+            }
+            return words;
+        }
+
+        function countOccurrencesOfWord(arrayWords, wordToSearch, isCaseSensitive) {
+            switch (arguments.length) {
+                case 2:
+                    return countOccurrencesOfWordCaseInsensitive(wordToSearch);
+                case 3:
+                    return isCaseSensitive ? countOccurrencesOfWordCaseSensitive(wordToSearch) : countOccurrencesOfWordCaseInsensitive(wordToSearch);
+                default:
+                    return "ERROR!";
+            }
+
+            function countOccurrencesOfWordCaseSensitive(searchWord) {
+                var wordCount = 0;
+                for (var index = 0; index < arrayWords.length; index++) {
+                    if (searchWord == arrayWords[index]) {
+                        wordCount++;
+                    }
+                }
+                return wordCount;
+            }
+
+            function countOccurrencesOfWordCaseInsensitive(searchWord) {
+                var wordCount = 0;
+                searchWord = searchWord.toLowerCase();
+                for (var i = 0; i < arrayWords.length; i++) {
+                    if (searchWord == arrayWords[i].toLowerCase()) {
+                        wordCount++;
+                    }
+                }
+                return wordCount;
+            }
+        }
+    </script>
+</head>
+<body>
+    <p>Write a function that finds all the occurrences of word in a text. The search can be case sensitive or case insensitive. Use function overloading.</p>
+    <div id="text">TEXT: PANDA also known as panda bear or the giant panda to distinguish it from the unrelated red panda, is a bear native to south central China.</div>
+    <label for="input">Word: </label>
+    <input type="text" id="input" autofocus="autofocus" placeholder="Enter a word from the text" />
+    Case sensitive search?<input type="checkbox" id="sensitive" />
+    <button onclick="searchForWordInText()">Go!</button>
+</body>
+</html>
