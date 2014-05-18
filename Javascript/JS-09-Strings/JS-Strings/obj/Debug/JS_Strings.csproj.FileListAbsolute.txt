@@ -1,5 +1,0 @@
-C:\Users\User\Desktop\GITHUB\05.Javascript\JS-09-Strings\JS-Strings\bin\JS_Strings.dll
-C:\Users\User\Desktop\GITHUB\05.Javascript\JS-09-Strings\JS-Strings\bin\JS_Strings.pdb
-C:\Users\User\Desktop\GITHUB\05.Javascript\JS-09-Strings\JS-Strings\obj\Debug\JS_Strings.dll
-C:\Users\User\Desktop\GITHUB\05.Javascript\JS-09-Strings\JS-Strings\obj\Debug\JS_Strings.pdb
-C:\Users\User\Desktop\GITHUB\05.Javascript\JS-09-Strings\JS-Strings\obj\Debug\JS_Strings.csprojResolveAssemblyReference.cache

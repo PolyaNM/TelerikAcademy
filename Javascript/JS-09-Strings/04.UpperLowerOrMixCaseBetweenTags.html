@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task 4</title>
+    <!-- You are given a text. Write a function that changes the text in all regions:
+        <upcase>text</upcase> to uppercase.
+        <lowcase>text</lowcase> to lowercase
+        <mixcase>text</mixcase> to mix casing(random)
+        We are <mixcase>living</mixcase> in a <upcase>yellow submarine</upcase>. We <mixcase>don't</mixcase> have <lowcase>anything</lowcase> else. ====> We are LiVinG in a YELLOW SUBMARINE. We dOn'T have anything else.-->
+    <link href="style.css" rel="stylesheet" />
+    <style>
+        textarea {
+            width: 62%;
+        }
+    </style>
+
+</head>
+<body>
+    <p>Write a JavaScript function that finds how many times a substring is contained in a given text (perform case insensitive search).</p>
+    <div>Text before transformation: We are living in a yellow submarine.We don't have anything else.</div>
+    <textarea id="textWithTags"></textarea>
+    <br>
+    <button onclick="transformTextBetweenTags()">Transform!</button>
+    <script>
+        document.getElementById("textWithTags").value = "We are <mixcase>living</mixcase> in a <upcase>yellow <lowcase>submarine</lowcase></upcase>. We <mixcase>don't</mixcase> have <lowcase>anything</lowcase> else.";
+
+        function transformTextBetweenTags() {
+            var inputText = document.getElementById("textWithTags").value;
+
+            var result = replaceTextInTags(inputText);
+
+            function replaceTextInTags(text) {
+                var stack = []; // keeps the tags which have to be implemented
+                var replaced = "";
+                for (var i = 0; i < text.length; i++) {
+                    if (text[i] + text[i + 1] === "<u") {
+                        i += 7;
+                        stack.push("up");
+                    }
+                    else if (text[i] + text[i + 1] === "<l") {
+                        i += 8;
+                        stack.push("low");
+                    }
+                    else if (text[i] + text[i + 1] === "<m") {
+                        i += 8;
+                        stack.push("mix");
+                    }
+                    else if (text[i] + text[i + 1] + text[i + 2] === "</u") {
+                        i += 8;
+                        stack.pop();
+                    }
+                    else if (text[i] + text[i + 1] + text[i + 2] === "</l") {
+                        i += 9;
+                        stack.pop();
+                    }
+                    else if (text[i] + text[i + 1] + text[i + 2] === "</m") {
+                        i += 9;
+                        stack.pop();
+                    }
+                    else {
+                        var state = stack[stack.length - 1];
+                        if (state === "up") {
+                            replaced += text[i].toUpperCase();
+                        }
+                        else if (state === "low") {
+                            replaced += text[i].toLowerCase();
+                        }
+                        else if (state === "mix") {
+                            if (Math.random() < 0.5) {
+                                replaced += text[i].toLowerCase();
+                            }
+                            else {
+                                replaced += text[i].toUpperCase();
+                            }
+                        }
+                        else {
+                            replaced += text[i];
+                        }
+                    }
+                }
+                return replaced;
+            }
+
+            //Output
+            var newDiv = document.createElement('div');
+            newDiv.innerHTML = result;
+            document.body.appendChild(newDiv);
+        }
+    </script>
+
+</body>
+</html>
