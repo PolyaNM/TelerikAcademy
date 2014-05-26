@@ -1,0 +1,6 @@
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework12-TextFiles\05.FindMaxSubMatrix\bin\Debug\05.FindMaxSubMatrix.exe.config
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework12-TextFiles\05.FindMaxSubMatrix\bin\Debug\05.FindMaxSubMatrix.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework12-TextFiles\05.FindMaxSubMatrix\bin\Debug\05.FindMaxSubMatrix.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework12-TextFiles\05.FindMaxSubMatrix\obj\Debug\05.FindMaxSubMatrix.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework12-TextFiles\05.FindMaxSubMatrix\obj\Debug\05.FindMaxSubMatrix.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework12-TextFiles\05.FindMaxSubMatrix\obj\Debug\05.FindMaxSubMatrix.pdb

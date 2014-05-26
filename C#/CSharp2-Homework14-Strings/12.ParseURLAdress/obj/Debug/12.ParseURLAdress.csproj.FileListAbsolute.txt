@@ -1,0 +1,6 @@
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework14-Strings\12.ParseURLAdress\bin\Debug\12.ParseURLAdress.exe.config
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework14-Strings\12.ParseURLAdress\bin\Debug\12.ParseURLAdress.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework14-Strings\12.ParseURLAdress\bin\Debug\12.ParseURLAdress.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework14-Strings\12.ParseURLAdress\obj\Debug\12.ParseURLAdress.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework14-Strings\12.ParseURLAdress\obj\Debug\12.ParseURLAdress.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework14-Strings\12.ParseURLAdress\obj\Debug\12.ParseURLAdress.pdb

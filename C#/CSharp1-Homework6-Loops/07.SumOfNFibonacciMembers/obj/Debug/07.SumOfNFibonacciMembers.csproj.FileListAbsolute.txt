@@ -1,0 +1,6 @@
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework6-Loops\07.SumOfNFibonacciMembers\bin\Debug\07.SumOfNFibonacciMembers.exe.config
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework6-Loops\07.SumOfNFibonacciMembers\bin\Debug\07.SumOfNFibonacciMembers.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework6-Loops\07.SumOfNFibonacciMembers\bin\Debug\07.SumOfNFibonacciMembers.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework6-Loops\07.SumOfNFibonacciMembers\obj\Debug\07.SumOfNFibonacciMembers.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework6-Loops\07.SumOfNFibonacciMembers\obj\Debug\07.SumOfNFibonacciMembers.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework6-Loops\07.SumOfNFibonacciMembers\obj\Debug\07.SumOfNFibonacciMembers.pdb

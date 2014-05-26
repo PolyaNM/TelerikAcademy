@@ -1,0 +1,6 @@
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework5-ConditionalStatements\10.ApplyBonusScores\bin\Debug\10.ApplyBonusScores.exe.config
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework5-ConditionalStatements\10.ApplyBonusScores\bin\Debug\10.ApplyBonusScores.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework5-ConditionalStatements\10.ApplyBonusScores\bin\Debug\10.ApplyBonusScores.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework5-ConditionalStatements\10.ApplyBonusScores\obj\Debug\10.ApplyBonusScores.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework5-ConditionalStatements\10.ApplyBonusScores\obj\Debug\10.ApplyBonusScores.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework5-ConditionalStatements\10.ApplyBonusScores\obj\Debug\10.ApplyBonusScores.pdb

@@ -1,0 +1,6 @@
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework6-Loops\04.NFactorialDividedByKFactorial\bin\Debug\04.NFactorialDividedByKFactorial.exe.config
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework6-Loops\04.NFactorialDividedByKFactorial\bin\Debug\04.NFactorialDividedByKFactorial.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework6-Loops\04.NFactorialDividedByKFactorial\bin\Debug\04.NFactorialDividedByKFactorial.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework6-Loops\04.NFactorialDividedByKFactorial\obj\Debug\04.NFactorialDividedByKFactorial.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework6-Loops\04.NFactorialDividedByKFactorial\obj\Debug\04.NFactorialDividedByKFactorial.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework6-Loops\04.NFactorialDividedByKFactorial\obj\Debug\04.NFactorialDividedByKFactorial.pdb

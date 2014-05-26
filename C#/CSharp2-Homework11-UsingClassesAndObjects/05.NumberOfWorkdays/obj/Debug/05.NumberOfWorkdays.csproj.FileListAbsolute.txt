@@ -1,0 +1,6 @@
+c:\users\user\documents\visual studio 2013\Projects\CSharp2-Homework11-UsingClassesAndObjects\05.NumberOfWorkdays\bin\Debug\05.NumberOfWorkdays.exe.config
+c:\users\user\documents\visual studio 2013\Projects\CSharp2-Homework11-UsingClassesAndObjects\05.NumberOfWorkdays\bin\Debug\05.NumberOfWorkdays.exe
+c:\users\user\documents\visual studio 2013\Projects\CSharp2-Homework11-UsingClassesAndObjects\05.NumberOfWorkdays\bin\Debug\05.NumberOfWorkdays.pdb
+c:\users\user\documents\visual studio 2013\Projects\CSharp2-Homework11-UsingClassesAndObjects\05.NumberOfWorkdays\obj\Debug\05.NumberOfWorkdays.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2013\Projects\CSharp2-Homework11-UsingClassesAndObjects\05.NumberOfWorkdays\obj\Debug\05.NumberOfWorkdays.exe
+c:\users\user\documents\visual studio 2013\Projects\CSharp2-Homework11-UsingClassesAndObjects\05.NumberOfWorkdays\obj\Debug\05.NumberOfWorkdays.pdb

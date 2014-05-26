@@ -1,0 +1,4 @@
+1. Beer
+2. Champagne
+3. Whiskey
+4. Wine

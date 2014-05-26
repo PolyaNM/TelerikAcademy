@@ -1,0 +1,6 @@
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework10-NumeralSystems\03.DecimalToHexademical\bin\Debug\03.DecimalToHexademical.exe.config
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework10-NumeralSystems\03.DecimalToHexademical\bin\Debug\03.DecimalToHexademical.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework10-NumeralSystems\03.DecimalToHexademical\bin\Debug\03.DecimalToHexademical.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework10-NumeralSystems\03.DecimalToHexademical\obj\Debug\03.DecimalToHexademical.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework10-NumeralSystems\03.DecimalToHexademical\obj\Debug\03.DecimalToHexademical.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework10-NumeralSystems\03.DecimalToHexademical\obj\Debug\03.DecimalToHexademical.pdb

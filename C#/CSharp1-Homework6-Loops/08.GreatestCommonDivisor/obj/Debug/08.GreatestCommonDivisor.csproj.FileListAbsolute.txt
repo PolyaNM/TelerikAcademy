@@ -1,0 +1,6 @@
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework6-Loops\08.GreatestCommonDivisor\bin\Debug\08.GreatestCommonDivisor.exe.config
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework6-Loops\08.GreatestCommonDivisor\obj\Debug\08.GreatestCommonDivisor.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework6-Loops\08.GreatestCommonDivisor\bin\Debug\08.GreatestCommonDivisor.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework6-Loops\08.GreatestCommonDivisor\bin\Debug\08.GreatestCommonDivisor.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework6-Loops\08.GreatestCommonDivisor\obj\Debug\08.GreatestCommonDivisor.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework6-Loops\08.GreatestCommonDivisor\obj\Debug\08.GreatestCommonDivisor.pdb

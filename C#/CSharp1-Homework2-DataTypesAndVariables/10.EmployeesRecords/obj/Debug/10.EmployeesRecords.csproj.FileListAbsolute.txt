@@ -1,0 +1,9 @@
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework2-DataTypesAndVariables\10.EmployeesRecords\bin\Debug\10.EmployeesRecords.exe.config
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework2-DataTypesAndVariables\10.EmployeesRecords\obj\Debug\10.EmployeesRecords.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework2-DataTypesAndVariables\10.EmployeesRecords\bin\Debug\10.EmployeesRecords.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework2-DataTypesAndVariables\10.EmployeesRecords\bin\Debug\10.EmployeesRecords.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework2-DataTypesAndVariables\10.EmployeesRecords\obj\Debug\10.EmployeesRecords.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework2-DataTypesAndVariables\10.EmployeesRecords\obj\Debug\10.EmployeesRecords.pdb
+C:\Users\User\Desktop\upload\GITHUB\01.C#\CSharp1-Homework2-DataTypesAndVariables\10.EmployeesRecords\bin\Debug\10.EmployeesRecords.exe.config
+C:\Users\User\Desktop\upload\GITHUB\01.C#\CSharp1-Homework2-DataTypesAndVariables\10.EmployeesRecords\obj\Debug\10.EmployeesRecords.exe
+C:\Users\User\Desktop\upload\GITHUB\01.C#\CSharp1-Homework2-DataTypesAndVariables\10.EmployeesRecords\obj\Debug\10.EmployeesRecords.pdb

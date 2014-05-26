@@ -1,0 +1,9 @@
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework3-OperatorsAndExpressions\12.ChangeBitAtGivenPosition\bin\Debug\12.ChangeBitAtGivenPosition.exe.config
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework3-OperatorsAndExpressions\12.ChangeBitAtGivenPosition\bin\Debug\12.ChangeBitAtGivenPosition.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework3-OperatorsAndExpressions\12.ChangeBitAtGivenPosition\bin\Debug\12.ChangeBitAtGivenPosition.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework3-OperatorsAndExpressions\12.ChangeBitAtGivenPosition\obj\Debug\12.ChangeBitAtGivenPosition.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework3-OperatorsAndExpressions\12.ChangeBitAtGivenPosition\obj\Debug\12.ChangeBitAtGivenPosition.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework3-OperatorsAndExpressions\12.ChangeBitAtGivenPosition\obj\Debug\12.ChangeBitAtGivenPosition.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1&2\CSharp1-Homework3-OperatorsAndExpressions\12.ChangeBitAtGivenPosition\bin\Debug\12.ChangeBitAtGivenPosition.exe.config
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1&2\CSharp1-Homework3-OperatorsAndExpressions\12.ChangeBitAtGivenPosition\obj\Debug\12.ChangeBitAtGivenPosition.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1&2\CSharp1-Homework3-OperatorsAndExpressions\12.ChangeBitAtGivenPosition\obj\Debug\12.ChangeBitAtGivenPosition.pdb

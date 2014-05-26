@@ -1,0 +1,5 @@
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework2-DataTypesAndVariables\11.IntExchangeValues\bin\Debug\11.IntExchangeValues.exe.config
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework2-DataTypesAndVariables\11.IntExchangeValues\bin\Debug\11.IntExchangeValues.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework2-DataTypesAndVariables\11.IntExchangeValues\bin\Debug\11.IntExchangeValues.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework2-DataTypesAndVariables\11.IntExchangeValues\obj\Debug\11.IntExchangeValues.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework2-DataTypesAndVariables\11.IntExchangeValues\obj\Debug\11.IntExchangeValues.pdb

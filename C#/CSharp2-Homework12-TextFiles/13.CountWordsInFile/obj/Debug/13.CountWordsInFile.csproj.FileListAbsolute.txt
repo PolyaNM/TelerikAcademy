@@ -1,0 +1,6 @@
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework12-TextFiles\13.CountWordsInFile\bin\Debug\13.CountWordsInFile.exe.config
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework12-TextFiles\13.CountWordsInFile\bin\Debug\13.CountWordsInFile.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework12-TextFiles\13.CountWordsInFile\bin\Debug\13.CountWordsInFile.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework12-TextFiles\13.CountWordsInFile\obj\Debug\13.CountWordsInFile.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework12-TextFiles\13.CountWordsInFile\obj\Debug\13.CountWordsInFile.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework12-TextFiles\13.CountWordsInFile\obj\Debug\13.CountWordsInFile.pdb

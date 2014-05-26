@@ -1,0 +1,6 @@
+c:\users\user\documents\visual studio 2013\Projects\CSharp2-Homework8-MultidimensionalArrays\01.FillAndPrintAMatrix\bin\Debug\01.FillAndPrintAMatrix.exe.config
+c:\users\user\documents\visual studio 2013\Projects\CSharp2-Homework8-MultidimensionalArrays\01.FillAndPrintAMatrix\bin\Debug\01.FillAndPrintAMatrix.exe
+c:\users\user\documents\visual studio 2013\Projects\CSharp2-Homework8-MultidimensionalArrays\01.FillAndPrintAMatrix\bin\Debug\01.FillAndPrintAMatrix.pdb
+c:\users\user\documents\visual studio 2013\Projects\CSharp2-Homework8-MultidimensionalArrays\01.FillAndPrintAMatrix\obj\Debug\01.FillAndPrintAMatrix.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2013\Projects\CSharp2-Homework8-MultidimensionalArrays\01.FillAndPrintAMatrix\obj\Debug\01.FillAndPrintAMatrix.exe
+c:\users\user\documents\visual studio 2013\Projects\CSharp2-Homework8-MultidimensionalArrays\01.FillAndPrintAMatrix\obj\Debug\01.FillAndPrintAMatrix.pdb

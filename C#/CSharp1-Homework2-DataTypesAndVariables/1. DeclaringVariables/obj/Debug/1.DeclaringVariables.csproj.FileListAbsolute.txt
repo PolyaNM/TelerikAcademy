@@ -1,0 +1,8 @@
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework2-DataTypesAndVariables\1. DeclaringVariables\bin\Debug\_1.DeclaringVariables.exe.config
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework2-DataTypesAndVariables\1. DeclaringVariables\bin\Debug\_1.DeclaringVariables.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework2-DataTypesAndVariables\1. DeclaringVariables\bin\Debug\_1.DeclaringVariables.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework2-DataTypesAndVariables\1. DeclaringVariables\obj\Debug\_1.DeclaringVariables.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework2-DataTypesAndVariables\1. DeclaringVariables\obj\Debug\_1.DeclaringVariables.pdb
+C:\Users\User\Desktop\upload\GITHUB\01.C#\CSharp1-Homework2-DataTypesAndVariables\1. DeclaringVariables\bin\Debug\_1.DeclaringVariables.exe.config
+C:\Users\User\Desktop\upload\GITHUB\01.C#\CSharp1-Homework2-DataTypesAndVariables\1. DeclaringVariables\obj\Debug\_1.DeclaringVariables.exe
+C:\Users\User\Desktop\upload\GITHUB\01.C#\CSharp1-Homework2-DataTypesAndVariables\1. DeclaringVariables\obj\Debug\_1.DeclaringVariables.pdb

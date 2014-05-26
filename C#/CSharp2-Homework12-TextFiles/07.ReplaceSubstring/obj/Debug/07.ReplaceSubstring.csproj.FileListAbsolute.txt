@@ -1,0 +1,6 @@
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework12-TextFiles\07.ReplaceSubstring\bin\Debug\07.ReplaceSubstring.exe.config
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework12-TextFiles\07.ReplaceSubstring\bin\Debug\07.ReplaceSubstring.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework12-TextFiles\07.ReplaceSubstring\bin\Debug\07.ReplaceSubstring.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework12-TextFiles\07.ReplaceSubstring\obj\Debug\07.ReplaceSubstring.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework12-TextFiles\07.ReplaceSubstring\obj\Debug\07.ReplaceSubstring.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework12-TextFiles\07.ReplaceSubstring\obj\Debug\07.ReplaceSubstring.pdb

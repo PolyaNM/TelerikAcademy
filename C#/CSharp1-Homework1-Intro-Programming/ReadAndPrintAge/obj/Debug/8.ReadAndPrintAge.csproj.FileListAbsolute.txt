@@ -1,0 +1,11 @@
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework1-Intro-Programming\ReadAndPrintAge\bin\Debug\ReadAndPrintAge.exe.config
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework1-Intro-Programming\ReadAndPrintAge\obj\Debug\ReadAndPrintAge.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework1-Intro-Programming\ReadAndPrintAge\obj\Debug\ReadAndPrintAge.pdb
+C:\Users\User\Desktop\GITHUB\01.C#\CSharp1-Homework1-Intro-Programming\ReadAndPrintAge\bin\Debug\ReadAndPrintAge.exe.config
+C:\Users\User\Desktop\GITHUB\01.C#\CSharp1-Homework1-Intro-Programming\ReadAndPrintAge\obj\Debug\ReadAndPrintAge.exe
+C:\Users\User\Desktop\GITHUB\01.C#\CSharp1-Homework1-Intro-Programming\ReadAndPrintAge\obj\Debug\ReadAndPrintAge.pdb
+C:\Users\User\Desktop\GITHUB\01.C#\CSharp1-Homework1-Intro-Programming\ReadAndPrintAge\bin\Debug\ReadAndPrintAge.exe
+C:\Users\User\Desktop\GITHUB\01.C#\CSharp1-Homework1-Intro-Programming\ReadAndPrintAge\bin\Debug\ReadAndPrintAge.pdb
+C:\Users\User\Desktop\upload\GITHUB\01.C#\CSharp1-Homework1-Intro-Programming\ReadAndPrintAge\bin\Debug\ReadAndPrintAge.exe.config
+C:\Users\User\Desktop\upload\GITHUB\01.C#\CSharp1-Homework1-Intro-Programming\ReadAndPrintAge\obj\Debug\ReadAndPrintAge.exe
+C:\Users\User\Desktop\upload\GITHUB\01.C#\CSharp1-Homework1-Intro-Programming\ReadAndPrintAge\obj\Debug\ReadAndPrintAge.pdb

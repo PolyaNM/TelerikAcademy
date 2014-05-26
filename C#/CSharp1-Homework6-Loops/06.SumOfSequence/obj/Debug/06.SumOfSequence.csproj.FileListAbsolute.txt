@@ -1,0 +1,1 @@
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework6-Loops\06.SumOfSequence\bin\Debug\06.SumOfSequence.exe.config

@@ -1,0 +1,6 @@
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework5-ConditionalStatements\09.ZeroSumSubset\bin\Debug\09.ZeroSumSubset.exe.config
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework5-ConditionalStatements\09.ZeroSumSubset\bin\Debug\09.ZeroSumSubset.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework5-ConditionalStatements\09.ZeroSumSubset\bin\Debug\09.ZeroSumSubset.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework5-ConditionalStatements\09.ZeroSumSubset\obj\Debug\09.ZeroSumSubset.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework5-ConditionalStatements\09.ZeroSumSubset\obj\Debug\09.ZeroSumSubset.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework5-ConditionalStatements\09.ZeroSumSubset\obj\Debug\09.ZeroSumSubset.pdb

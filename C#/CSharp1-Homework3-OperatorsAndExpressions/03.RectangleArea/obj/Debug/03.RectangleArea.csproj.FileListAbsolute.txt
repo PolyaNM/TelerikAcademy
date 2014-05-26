@@ -1,0 +1,11 @@
+c:\users\user\documents\visual studio 2013\Projects\CSharp1-Homework3-OperatorsAndExpressions\03.RectangleArea\bin\Debug\03.RectangleArea.exe.config
+c:\users\user\documents\visual studio 2013\Projects\CSharp1-Homework3-OperatorsAndExpressions\03.RectangleArea\bin\Debug\03.RectangleArea.exe
+c:\users\user\documents\visual studio 2013\Projects\CSharp1-Homework3-OperatorsAndExpressions\03.RectangleArea\bin\Debug\03.RectangleArea.pdb
+c:\users\user\documents\visual studio 2013\Projects\CSharp1-Homework3-OperatorsAndExpressions\03.RectangleArea\obj\Debug\03.RectangleArea.exe
+c:\users\user\documents\visual studio 2013\Projects\CSharp1-Homework3-OperatorsAndExpressions\03.RectangleArea\obj\Debug\03.RectangleArea.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1&2\CSharp1-Homework3-OperatorsAndExpressions\03.RectangleArea\bin\Debug\03.RectangleArea.exe.config
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1&2\CSharp1-Homework3-OperatorsAndExpressions\03.RectangleArea\obj\Debug\03.RectangleArea.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1&2\CSharp1-Homework3-OperatorsAndExpressions\03.RectangleArea\obj\Debug\03.RectangleArea.pdb
+C:\Users\User\Desktop\GITHUB\01.C#\CSharp1-Homework3-OperatorsAndExpressions\03.RectangleArea\bin\Debug\03.RectangleArea.exe.config
+C:\Users\User\Desktop\GITHUB\01.C#\CSharp1-Homework3-OperatorsAndExpressions\03.RectangleArea\obj\Debug\03.RectangleArea.exe
+C:\Users\User\Desktop\GITHUB\01.C#\CSharp1-Homework3-OperatorsAndExpressions\03.RectangleArea\obj\Debug\03.RectangleArea.pdb

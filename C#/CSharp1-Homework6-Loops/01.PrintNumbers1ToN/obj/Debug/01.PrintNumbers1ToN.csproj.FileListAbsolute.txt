@@ -1,0 +1,6 @@
+c:\users\user\documents\visual studio 2013\Projects\CSharp1-Homework6-Loops\01.PrintNumbers1ToN\bin\Debug\01.PrintNumbers1ToN.exe.config
+c:\users\user\documents\visual studio 2013\Projects\CSharp1-Homework6-Loops\01.PrintNumbers1ToN\bin\Debug\01.PrintNumbers1ToN.exe
+c:\users\user\documents\visual studio 2013\Projects\CSharp1-Homework6-Loops\01.PrintNumbers1ToN\bin\Debug\01.PrintNumbers1ToN.pdb
+c:\users\user\documents\visual studio 2013\Projects\CSharp1-Homework6-Loops\01.PrintNumbers1ToN\obj\Debug\01.PrintNumbers1ToN.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2013\Projects\CSharp1-Homework6-Loops\01.PrintNumbers1ToN\obj\Debug\01.PrintNumbers1ToN.exe
+c:\users\user\documents\visual studio 2013\Projects\CSharp1-Homework6-Loops\01.PrintNumbers1ToN\obj\Debug\01.PrintNumbers1ToN.pdb

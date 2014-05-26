@@ -1,0 +1,9 @@
+c:\users\user\documents\visual studio 2013\Projects\CSharp1-Homework5-ConditionalStatements\01.ExchangeValuesOfIntegers\bin\Debug\01.ExchangeValuesOfIntegers.exe.config
+c:\users\user\documents\visual studio 2013\Projects\CSharp1-Homework5-ConditionalStatements\01.ExchangeValuesOfIntegers\obj\Debug\01.ExchangeValuesOfIntegers.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2013\Projects\CSharp1-Homework5-ConditionalStatements\01.ExchangeValuesOfIntegers\bin\Debug\01.ExchangeValuesOfIntegers.exe
+c:\users\user\documents\visual studio 2013\Projects\CSharp1-Homework5-ConditionalStatements\01.ExchangeValuesOfIntegers\bin\Debug\01.ExchangeValuesOfIntegers.pdb
+c:\users\user\documents\visual studio 2013\Projects\CSharp1-Homework5-ConditionalStatements\01.ExchangeValuesOfIntegers\obj\Debug\01.ExchangeValuesOfIntegers.exe
+c:\users\user\documents\visual studio 2013\Projects\CSharp1-Homework5-ConditionalStatements\01.ExchangeValuesOfIntegers\obj\Debug\01.ExchangeValuesOfIntegers.pdb
+C:\Users\User\Desktop\GITHUB\01.C#\CSharp1-Homework5-ConditionalStatements\01.ExchangeValuesOfIntegers\bin\Debug\01.ExchangeValuesOfIntegers.exe.config
+C:\Users\User\Desktop\GITHUB\01.C#\CSharp1-Homework5-ConditionalStatements\01.ExchangeValuesOfIntegers\obj\Debug\01.ExchangeValuesOfIntegers.exe
+C:\Users\User\Desktop\GITHUB\01.C#\CSharp1-Homework5-ConditionalStatements\01.ExchangeValuesOfIntegers\obj\Debug\01.ExchangeValuesOfIntegers.pdb

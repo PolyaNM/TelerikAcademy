@@ -1,0 +1,6 @@
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework6-Loops\11.PrintCardsNames\bin\Debug\11.PrintCardsNames.exe.config
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework6-Loops\11.PrintCardsNames\bin\Debug\11.PrintCardsNames.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework6-Loops\11.PrintCardsNames\bin\Debug\11.PrintCardsNames.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework6-Loops\11.PrintCardsNames\obj\Debug\11.PrintCardsNames.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework6-Loops\11.PrintCardsNames\obj\Debug\11.PrintCardsNames.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework6-Loops\11.PrintCardsNames\obj\Debug\11.PrintCardsNames.pdb

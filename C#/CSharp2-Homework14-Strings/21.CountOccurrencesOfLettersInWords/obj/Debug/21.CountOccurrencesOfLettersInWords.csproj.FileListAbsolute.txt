@@ -1,0 +1,6 @@
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework14-Strings\21.CountOccurrencesOfLettersInWords\bin\Debug\21.CountOccurrencesOfLettersInWords.exe.config
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework14-Strings\21.CountOccurrencesOfLettersInWords\bin\Debug\21.CountOccurrencesOfLettersInWords.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework14-Strings\21.CountOccurrencesOfLettersInWords\bin\Debug\21.CountOccurrencesOfLettersInWords.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework14-Strings\21.CountOccurrencesOfLettersInWords\obj\Debug\21.CountOccurrencesOfLettersInWords.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework14-Strings\21.CountOccurrencesOfLettersInWords\obj\Debug\21.CountOccurrencesOfLettersInWords.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework14-Strings\21.CountOccurrencesOfLettersInWords\obj\Debug\21.CountOccurrencesOfLettersInWords.pdb

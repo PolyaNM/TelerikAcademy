@@ -1,0 +1,6 @@
+c:\users\user\documents\visual studio 2013\Projects\CSharp2-Homework9-Methods\03.LastDigitAsAWord\bin\Debug\03.LastDigitAsAWord.exe.config
+c:\users\user\documents\visual studio 2013\Projects\CSharp2-Homework9-Methods\03.LastDigitAsAWord\bin\Debug\03.LastDigitAsAWord.exe
+c:\users\user\documents\visual studio 2013\Projects\CSharp2-Homework9-Methods\03.LastDigitAsAWord\bin\Debug\03.LastDigitAsAWord.pdb
+c:\users\user\documents\visual studio 2013\Projects\CSharp2-Homework9-Methods\03.LastDigitAsAWord\obj\Debug\03.LastDigitAsAWord.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2013\Projects\CSharp2-Homework9-Methods\03.LastDigitAsAWord\obj\Debug\03.LastDigitAsAWord.exe
+c:\users\user\documents\visual studio 2013\Projects\CSharp2-Homework9-Methods\03.LastDigitAsAWord\obj\Debug\03.LastDigitAsAWord.pdb

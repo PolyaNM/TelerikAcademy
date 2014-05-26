@@ -1,0 +1,6 @@
+c:\users\user\documents\visual studio 2013\Projects\CSharp1-Homework5-ConditionalStatements\06.QuadraticEquationRoots\bin\Debug\06.QuadraticEquationRoots.exe.config
+c:\users\user\documents\visual studio 2013\Projects\CSharp1-Homework5-ConditionalStatements\06.QuadraticEquationRoots\bin\Debug\06.QuadraticEquationRoots.exe
+c:\users\user\documents\visual studio 2013\Projects\CSharp1-Homework5-ConditionalStatements\06.QuadraticEquationRoots\bin\Debug\06.QuadraticEquationRoots.pdb
+c:\users\user\documents\visual studio 2013\Projects\CSharp1-Homework5-ConditionalStatements\06.QuadraticEquationRoots\obj\Debug\06.QuadraticEquationRoots.exe
+c:\users\user\documents\visual studio 2013\Projects\CSharp1-Homework5-ConditionalStatements\06.QuadraticEquationRoots\obj\Debug\06.QuadraticEquationRoots.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework5-ConditionalStatements\06.QuadraticEquationRoots\obj\Debug\06.QuadraticEquationRoots.csprojResolveAssemblyReference.cache

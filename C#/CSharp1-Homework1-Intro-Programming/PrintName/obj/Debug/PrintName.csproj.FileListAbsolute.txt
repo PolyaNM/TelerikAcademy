@@ -1,0 +1,5 @@
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework1-Intro-Programming\PrintName\bin\Debug\PrintName.exe.config
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework1-Intro-Programming\PrintName\bin\Debug\PrintName.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework1-Intro-Programming\PrintName\bin\Debug\PrintName.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework1-Intro-Programming\PrintName\obj\Debug\PrintName.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework1-Intro-Programming\PrintName\obj\Debug\PrintName.pdb

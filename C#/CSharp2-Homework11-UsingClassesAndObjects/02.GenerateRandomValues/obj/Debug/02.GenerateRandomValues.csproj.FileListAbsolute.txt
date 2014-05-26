@@ -1,0 +1,6 @@
+c:\users\user\documents\visual studio 2013\Projects\CSharp2-Homework11-UsingClassesAndObjects\02.GenerateRandomValues\bin\Debug\02.GenerateRandomValues.exe.config
+c:\users\user\documents\visual studio 2013\Projects\CSharp2-Homework11-UsingClassesAndObjects\02.GenerateRandomValues\bin\Debug\02.GenerateRandomValues.exe
+c:\users\user\documents\visual studio 2013\Projects\CSharp2-Homework11-UsingClassesAndObjects\02.GenerateRandomValues\bin\Debug\02.GenerateRandomValues.pdb
+c:\users\user\documents\visual studio 2013\Projects\CSharp2-Homework11-UsingClassesAndObjects\02.GenerateRandomValues\obj\Debug\02.GenerateRandomValues.exe
+c:\users\user\documents\visual studio 2013\Projects\CSharp2-Homework11-UsingClassesAndObjects\02.GenerateRandomValues\obj\Debug\02.GenerateRandomValues.pdb
+c:\users\user\documents\visual studio 2013\Projects\CSharp2-Homework11-UsingClassesAndObjects\02.GenerateRandomValues\obj\Debug\02.GenerateRandomValues.csprojResolveAssemblyReference.cache

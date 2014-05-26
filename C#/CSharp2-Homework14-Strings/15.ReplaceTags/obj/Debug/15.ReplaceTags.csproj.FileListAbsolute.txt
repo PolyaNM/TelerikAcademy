@@ -1,0 +1,6 @@
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework14-Strings\15.ReplaceTags\bin\Debug\15.ReplaceTags.exe.config
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework14-Strings\15.ReplaceTags\bin\Debug\15.ReplaceTags.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework14-Strings\15.ReplaceTags\bin\Debug\15.ReplaceTags.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework14-Strings\15.ReplaceTags\obj\Debug\15.ReplaceTags.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework14-Strings\15.ReplaceTags\obj\Debug\15.ReplaceTags.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework14-Strings\15.ReplaceTags\obj\Debug\15.ReplaceTags.pdb

@@ -1,0 +1,5 @@
+c:\users\user\documents\visual studio 2013\Projects\CSharp2-Homework11-UsingClassesAndObjects\06.SumOfNumbersInString\bin\Debug\06.SumOfNumbersInString.exe.config
+c:\users\user\documents\visual studio 2013\Projects\CSharp2-Homework11-UsingClassesAndObjects\06.SumOfNumbersInString\bin\Debug\06.SumOfNumbersInString.exe
+c:\users\user\documents\visual studio 2013\Projects\CSharp2-Homework11-UsingClassesAndObjects\06.SumOfNumbersInString\bin\Debug\06.SumOfNumbersInString.pdb
+c:\users\user\documents\visual studio 2013\Projects\CSharp2-Homework11-UsingClassesAndObjects\06.SumOfNumbersInString\obj\Debug\06.SumOfNumbersInString.exe
+c:\users\user\documents\visual studio 2013\Projects\CSharp2-Homework11-UsingClassesAndObjects\06.SumOfNumbersInString\obj\Debug\06.SumOfNumbersInString.pdb

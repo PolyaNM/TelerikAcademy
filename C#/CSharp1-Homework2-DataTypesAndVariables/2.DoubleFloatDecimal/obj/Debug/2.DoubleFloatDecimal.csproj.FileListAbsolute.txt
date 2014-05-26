@@ -1,0 +1,8 @@
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework2-DataTypesAndVariables\2.DoubleFloatDecimal\bin\Debug\2.DoubleFloatDecimal.exe.config
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework2-DataTypesAndVariables\2.DoubleFloatDecimal\bin\Debug\2.DoubleFloatDecimal.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework2-DataTypesAndVariables\2.DoubleFloatDecimal\bin\Debug\2.DoubleFloatDecimal.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework2-DataTypesAndVariables\2.DoubleFloatDecimal\obj\Debug\2.DoubleFloatDecimal.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework2-DataTypesAndVariables\2.DoubleFloatDecimal\obj\Debug\2.DoubleFloatDecimal.pdb
+C:\Users\User\Desktop\upload\GITHUB\01.C#\CSharp1-Homework2-DataTypesAndVariables\2.DoubleFloatDecimal\bin\Debug\2.DoubleFloatDecimal.exe.config
+C:\Users\User\Desktop\upload\GITHUB\01.C#\CSharp1-Homework2-DataTypesAndVariables\2.DoubleFloatDecimal\obj\Debug\2.DoubleFloatDecimal.exe
+C:\Users\User\Desktop\upload\GITHUB\01.C#\CSharp1-Homework2-DataTypesAndVariables\2.DoubleFloatDecimal\obj\Debug\2.DoubleFloatDecimal.pdb

@@ -1,0 +1,5 @@
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework3-OperatorsAndExpressions\10.CheckIfAGivenBitIs1\bin\Debug\10.CheckIfAGivenBitIs1.exe.config
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework3-OperatorsAndExpressions\10.CheckIfAGivenBitIs1\bin\Debug\10.CheckIfAGivenBitIs1.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework3-OperatorsAndExpressions\10.CheckIfAGivenBitIs1\bin\Debug\10.CheckIfAGivenBitIs1.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework3-OperatorsAndExpressions\10.CheckIfAGivenBitIs1\obj\Debug\10.CheckIfAGivenBitIs1.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework3-OperatorsAndExpressions\10.CheckIfAGivenBitIs1\obj\Debug\10.CheckIfAGivenBitIs1.pdb

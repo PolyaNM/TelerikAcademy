@@ -1,0 +1,5 @@
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework4-ConsoleInputOutput\08.PrintOneToNNum\bin\Debug\08.PrintOneToNNum.exe.config
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework4-ConsoleInputOutput\08.PrintOneToNNum\bin\Debug\08.PrintOneToNNum.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework4-ConsoleInputOutput\08.PrintOneToNNum\bin\Debug\08.PrintOneToNNum.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework4-ConsoleInputOutput\08.PrintOneToNNum\obj\Debug\08.PrintOneToNNum.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework4-ConsoleInputOutput\08.PrintOneToNNum\obj\Debug\08.PrintOneToNNum.pdb

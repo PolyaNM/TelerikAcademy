@@ -1,0 +1,6 @@
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework3-OperatorsAndExpressions\11.ExtractValuesOfABit\bin\Debug\11.ExtractValuesOfABit.exe.config
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework3-OperatorsAndExpressions\11.ExtractValuesOfABit\obj\Debug\11.ExtractValuesOfABit.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework3-OperatorsAndExpressions\11.ExtractValuesOfABit\obj\Debug\11.ExtractValuesOfABit.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1&2\CSharp1-Homework3-OperatorsAndExpressions\11.ExtractValuesOfABit\bin\Debug\11.ExtractValuesOfABit.exe.config
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1&2\CSharp1-Homework3-OperatorsAndExpressions\11.ExtractValuesOfABit\obj\Debug\11.ExtractValuesOfABit.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1&2\CSharp1-Homework3-OperatorsAndExpressions\11.ExtractValuesOfABit\obj\Debug\11.ExtractValuesOfABit.pdb

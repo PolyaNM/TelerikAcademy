@@ -1,0 +1,5 @@
+c:\users\user\documents\visual studio 2013\Projects\CSharp1-Homework5-ConditionalStatements\05.DigitToString\bin\Debug\05.DigitToString.exe.config
+c:\users\user\documents\visual studio 2013\Projects\CSharp1-Homework5-ConditionalStatements\05.DigitToString\bin\Debug\05.DigitToString.exe
+c:\users\user\documents\visual studio 2013\Projects\CSharp1-Homework5-ConditionalStatements\05.DigitToString\bin\Debug\05.DigitToString.pdb
+c:\users\user\documents\visual studio 2013\Projects\CSharp1-Homework5-ConditionalStatements\05.DigitToString\obj\Debug\05.DigitToString.exe
+c:\users\user\documents\visual studio 2013\Projects\CSharp1-Homework5-ConditionalStatements\05.DigitToString\obj\Debug\05.DigitToString.pdb

@@ -1,0 +1,5 @@
+stand - 4 times
+sea - 2 times
+crumble - 1 times
+cry - 0 times
+mia - 0 times

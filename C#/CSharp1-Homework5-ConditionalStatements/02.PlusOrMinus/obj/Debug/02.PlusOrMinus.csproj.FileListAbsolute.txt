@@ -1,0 +1,5 @@
+c:\users\user\documents\visual studio 2013\Projects\CSharp1-Homework5-ConditionalStatements\02.PlusOrMinus\bin\Debug\02.PlusOrMinus.exe.config
+c:\users\user\documents\visual studio 2013\Projects\CSharp1-Homework5-ConditionalStatements\02.PlusOrMinus\bin\Debug\02.PlusOrMinus.exe
+c:\users\user\documents\visual studio 2013\Projects\CSharp1-Homework5-ConditionalStatements\02.PlusOrMinus\bin\Debug\02.PlusOrMinus.pdb
+c:\users\user\documents\visual studio 2013\Projects\CSharp1-Homework5-ConditionalStatements\02.PlusOrMinus\obj\Debug\02.PlusOrMinus.exe
+c:\users\user\documents\visual studio 2013\Projects\CSharp1-Homework5-ConditionalStatements\02.PlusOrMinus\obj\Debug\02.PlusOrMinus.pdb

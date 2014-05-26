@@ -1,0 +1,8 @@
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework2-DataTypesAndVariables\7.StringObjectVar\bin\Debug\7.StringObjectVar.exe.config
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework2-DataTypesAndVariables\7.StringObjectVar\bin\Debug\7.StringObjectVar.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework2-DataTypesAndVariables\7.StringObjectVar\bin\Debug\7.StringObjectVar.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework2-DataTypesAndVariables\7.StringObjectVar\obj\Debug\7.StringObjectVar.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework2-DataTypesAndVariables\7.StringObjectVar\obj\Debug\7.StringObjectVar.pdb
+C:\Users\User\Desktop\GITHUB\01.C#\CSharp1-Homework2-DataTypesAndVariables\7.StringObjectVar\bin\Debug\7.StringObjectVar.exe.config
+C:\Users\User\Desktop\GITHUB\01.C#\CSharp1-Homework2-DataTypesAndVariables\7.StringObjectVar\obj\Debug\7.StringObjectVar.exe
+C:\Users\User\Desktop\GITHUB\01.C#\CSharp1-Homework2-DataTypesAndVariables\7.StringObjectVar\obj\Debug\7.StringObjectVar.pdb

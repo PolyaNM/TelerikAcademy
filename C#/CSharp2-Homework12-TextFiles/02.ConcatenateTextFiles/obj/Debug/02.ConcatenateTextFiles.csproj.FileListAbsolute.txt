@@ -1,0 +1,5 @@
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework12-TextFiles\02.ConcatenateTextFiles\bin\Debug\02.ConcatenateTextFiles.exe.config
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework12-TextFiles\02.ConcatenateTextFiles\bin\Debug\02.ConcatenateTextFiles.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework12-TextFiles\02.ConcatenateTextFiles\bin\Debug\02.ConcatenateTextFiles.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework12-TextFiles\02.ConcatenateTextFiles\obj\Debug\02.ConcatenateTextFiles.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework12-TextFiles\02.ConcatenateTextFiles\obj\Debug\02.ConcatenateTextFiles.pdb

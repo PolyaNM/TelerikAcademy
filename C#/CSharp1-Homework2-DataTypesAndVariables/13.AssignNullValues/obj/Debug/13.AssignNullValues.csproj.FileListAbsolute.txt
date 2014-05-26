@@ -1,0 +1,6 @@
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework2-DataTypesAndVariables\13.AssignNullValues\bin\Debug\13.AssignNullValues.exe.config
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework2-DataTypesAndVariables\13.AssignNullValues\bin\Debug\13.AssignNullValues.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework2-DataTypesAndVariables\13.AssignNullValues\bin\Debug\13.AssignNullValues.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework2-DataTypesAndVariables\13.AssignNullValues\obj\Debug\13.AssignNullValues.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework2-DataTypesAndVariables\13.AssignNullValues\obj\Debug\13.AssignNullValues.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework2-DataTypesAndVariables\13.AssignNullValues\obj\Debug\13.AssignNullValues.csprojResolveAssemblyReference.cache

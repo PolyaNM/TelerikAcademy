@@ -1,0 +1,5 @@
+c:\users\user\documents\visual studio 2013\Projects\CSharp2-Homework11-UsingClassesAndObjects\04.CalculateSurfaceOfTriangle\bin\Debug\04.CalculateSurfaceOfTriangle.exe.config
+c:\users\user\documents\visual studio 2013\Projects\CSharp2-Homework11-UsingClassesAndObjects\04.CalculateSurfaceOfTriangle\bin\Debug\04.CalculateSurfaceOfTriangle.exe
+c:\users\user\documents\visual studio 2013\Projects\CSharp2-Homework11-UsingClassesAndObjects\04.CalculateSurfaceOfTriangle\bin\Debug\04.CalculateSurfaceOfTriangle.pdb
+c:\users\user\documents\visual studio 2013\Projects\CSharp2-Homework11-UsingClassesAndObjects\04.CalculateSurfaceOfTriangle\obj\Debug\04.CalculateSurfaceOfTriangle.exe
+c:\users\user\documents\visual studio 2013\Projects\CSharp2-Homework11-UsingClassesAndObjects\04.CalculateSurfaceOfTriangle\obj\Debug\04.CalculateSurfaceOfTriangle.pdb

@@ -1,0 +1,6 @@
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework6-Loops\10.CatalianNumberN\bin\Debug\10.CatalianNumberN.exe.config
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework6-Loops\10.CatalianNumberN\obj\Debug\10.CatalianNumberN.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework6-Loops\10.CatalianNumberN\bin\Debug\10.CatalianNumberN.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework6-Loops\10.CatalianNumberN\bin\Debug\10.CatalianNumberN.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework6-Loops\10.CatalianNumberN\obj\Debug\10.CatalianNumberN.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework6-Loops\10.CatalianNumberN\obj\Debug\10.CatalianNumberN.pdb

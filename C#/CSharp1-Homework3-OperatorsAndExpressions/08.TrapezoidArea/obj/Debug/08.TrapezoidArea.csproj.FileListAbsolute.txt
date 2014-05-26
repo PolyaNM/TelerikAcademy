@@ -1,0 +1,6 @@
+c:\users\user\documents\visual studio 2013\Projects\CSharp1-Homework3-OperatorsAndExpressions\08.TrapezoidArea\bin\Debug\08.TrapezoidArea.exe.config
+c:\users\user\documents\visual studio 2013\Projects\CSharp1-Homework3-OperatorsAndExpressions\08.TrapezoidArea\bin\Debug\08.TrapezoidArea.exe
+c:\users\user\documents\visual studio 2013\Projects\CSharp1-Homework3-OperatorsAndExpressions\08.TrapezoidArea\bin\Debug\08.TrapezoidArea.pdb
+c:\users\user\documents\visual studio 2013\Projects\CSharp1-Homework3-OperatorsAndExpressions\08.TrapezoidArea\obj\Debug\08.TrapezoidArea.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2013\Projects\CSharp1-Homework3-OperatorsAndExpressions\08.TrapezoidArea\obj\Debug\08.TrapezoidArea.exe
+c:\users\user\documents\visual studio 2013\Projects\CSharp1-Homework3-OperatorsAndExpressions\08.TrapezoidArea\obj\Debug\08.TrapezoidArea.pdb

@@ -1,0 +1,6 @@
+c:\users\user\documents\visual studio 2013\Projects\CSharp1-Homework5-ConditionalStatements\08.IntDoubleOrStringInput\bin\Debug\08.IntDoubleOrStringInput.exe.config
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework5-ConditionalStatements\08.IntDoubleOrStringInput\bin\Debug\08.IntDoubleOrStringInput.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework5-ConditionalStatements\08.IntDoubleOrStringInput\bin\Debug\08.IntDoubleOrStringInput.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework5-ConditionalStatements\08.IntDoubleOrStringInput\obj\Debug\08.IntDoubleOrStringInput.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework5-ConditionalStatements\08.IntDoubleOrStringInput\obj\Debug\08.IntDoubleOrStringInput.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework5-ConditionalStatements\08.IntDoubleOrStringInput\obj\Debug\08.IntDoubleOrStringInput.pdb

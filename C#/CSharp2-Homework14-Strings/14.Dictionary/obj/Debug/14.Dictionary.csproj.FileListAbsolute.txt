@@ -1,0 +1,6 @@
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework14-Strings\14.Dictionary\bin\Debug\14.Dictionary.exe.config
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework14-Strings\14.Dictionary\bin\Debug\14.Dictionary.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework14-Strings\14.Dictionary\bin\Debug\14.Dictionary.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework14-Strings\14.Dictionary\obj\Debug\14.Dictionary.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework14-Strings\14.Dictionary\obj\Debug\14.Dictionary.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp2-Homework14-Strings\14.Dictionary\obj\Debug\14.Dictionary.pdb

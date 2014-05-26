@@ -1,0 +1,6 @@
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework4-ConsoleInputOutput\03.CompanyAndManagerInf\bin\Debug\03.CompanyAndManagerInf.exe.config
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework4-ConsoleInputOutput\03.CompanyAndManagerInf\bin\Debug\03.CompanyAndManagerInf.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework4-ConsoleInputOutput\03.CompanyAndManagerInf\bin\Debug\03.CompanyAndManagerInf.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework4-ConsoleInputOutput\03.CompanyAndManagerInf\obj\Debug\03.CompanyAndManagerInf.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework4-ConsoleInputOutput\03.CompanyAndManagerInf\obj\Debug\03.CompanyAndManagerInf.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\CSharp1-Homework4-ConsoleInputOutput\03.CompanyAndManagerInf\obj\Debug\03.CompanyAndManagerInf.pdb
