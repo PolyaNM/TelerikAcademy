@@ -1,0 +1,15 @@
+C:\Users\User\Documents\Visual Studio 2013\Projects\01.OOP - DefiningClasses1\ProjectGSM\bin\Debug\ProjectGSM.exe.config
+C:\Users\User\Documents\Visual Studio 2013\Projects\01.OOP - DefiningClasses1\ProjectGSM\obj\Debug\ProjectGSM.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2013\Projects\01.OOP - DefiningClasses1\ProjectGSM\bin\Debug\ProjectGSM.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\01.OOP - DefiningClasses1\ProjectGSM\bin\Debug\ProjectGSM.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\01.OOP - DefiningClasses1\ProjectGSM\obj\Debug\ProjectGSM.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\01.OOP - DefiningClasses1\ProjectGSM\obj\Debug\ProjectGSM.pdb
+C:\Users\User\Desktop\GITHUB\02.OOP\01.OOP - DefiningClasses1\ProjectGSM\bin\Debug\ProjectGSM.exe.config
+C:\Users\User\Desktop\GITHUB\02.OOP\01.OOP - DefiningClasses1\ProjectGSM\obj\Debug\ProjectGSM.exe
+C:\Users\User\Desktop\GITHUB\02.OOP\01.OOP - DefiningClasses1\ProjectGSM\obj\Debug\ProjectGSM.pdb
+C:\Users\User\Desktop\upload\GITHUB\02.OOP\01.OOP - DefiningClasses1\ProjectGSM\bin\Debug\ProjectGSM.exe.config
+C:\Users\User\Desktop\upload\GITHUB\02.OOP\01.OOP - DefiningClasses1\ProjectGSM\obj\Debug\ProjectGSM.exe
+C:\Users\User\Desktop\upload\GITHUB\02.OOP\01.OOP - DefiningClasses1\ProjectGSM\obj\Debug\ProjectGSM.pdb
+C:\Users\User\Desktop\upload\GITHUB\02.OOP\01.OOP - DefiningClasses1\ProjectGSM\bin\Debug\ProjectGSM.exe
+C:\Users\User\Desktop\upload\GITHUB\02.OOP\01.OOP - DefiningClasses1\ProjectGSM\bin\Debug\ProjectGSM.pdb
+C:\Users\User\Desktop\upload\GITHUB\02.OOP\01.OOP - DefiningClasses1\ProjectGSM\obj\Debug\ProjectGSM.csprojResolveAssemblyReference.cache
