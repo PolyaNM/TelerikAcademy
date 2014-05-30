@@ -10,3 +10,6 @@ C:\Users\User\Desktop\GITHUB\01.C#\CSharp1-Homework1-Intro-Programming\PrintName
 C:\Users\User\Desktop\upload\GITHUB\01.C#\CSharp1-Homework1-Intro-Programming\PrintName\bin\Debug\PrintName.exe.config
 C:\Users\User\Desktop\upload\GITHUB\01.C#\CSharp1-Homework1-Intro-Programming\PrintName\obj\Debug\PrintName.exe
 C:\Users\User\Desktop\upload\GITHUB\01.C#\CSharp1-Homework1-Intro-Programming\PrintName\obj\Debug\PrintName.pdb
+H:\Downloads\Repo\C#\CSharp1-Homework1-Intro-Programming\PrintName\bin\Debug\PrintName.exe.config
+H:\Downloads\Repo\C#\CSharp1-Homework1-Intro-Programming\PrintName\obj\Debug\PrintName.exe
+H:\Downloads\Repo\C#\CSharp1-Homework1-Intro-Programming\PrintName\obj\Debug\PrintName.pdb

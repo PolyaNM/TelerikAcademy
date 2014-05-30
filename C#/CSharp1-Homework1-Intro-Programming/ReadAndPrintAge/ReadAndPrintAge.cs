@@ -8,6 +8,7 @@ class ReadAndPrintAge
     {
         Console.WriteLine("When is your birthday? Use this format --> dd/mm/yy");
         DateTime birthday = DateTime.Parse(Console.ReadLine());
+
         int yearsOld = DateTime.Now.Year - birthday.Year;
         int period = 10;
         int ageAfterTenYears = yearsOld + period;
