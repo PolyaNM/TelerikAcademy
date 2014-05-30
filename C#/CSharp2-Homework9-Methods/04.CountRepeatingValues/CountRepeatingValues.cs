@@ -18,8 +18,9 @@ using System;
         static void Main()
         {
             Console.WriteLine("Please, enter a number.");
-            //Checking the input
+
             string input = Console.ReadLine();
+
             double number;
             if (!double.TryParse(input, out number))
             {
