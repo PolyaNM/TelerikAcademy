@@ -10,3 +10,6 @@ C:\Users\User\Desktop\GITHUB\01.C#\CSharp1-Homework1-Intro-Programming\HelloCSha
 C:\Users\User\Desktop\upload\GITHUB\01.C#\CSharp1-Homework1-Intro-Programming\HelloCSharp\bin\Debug\HelloCSharp.exe.config
 C:\Users\User\Desktop\upload\GITHUB\01.C#\CSharp1-Homework1-Intro-Programming\HelloCSharp\obj\Debug\HelloCSharp.exe
 C:\Users\User\Desktop\upload\GITHUB\01.C#\CSharp1-Homework1-Intro-Programming\HelloCSharp\obj\Debug\HelloCSharp.pdb
+H:\Downloads\Repo\C#\CSharp1-Homework1-Intro-Programming\HelloCSharp\bin\Debug\HelloCSharp.exe.config
+H:\Downloads\Repo\C#\CSharp1-Homework1-Intro-Programming\HelloCSharp\obj\Debug\HelloCSharp.exe
+H:\Downloads\Repo\C#\CSharp1-Homework1-Intro-Programming\HelloCSharp\obj\Debug\HelloCSharp.pdb

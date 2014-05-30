@@ -9,3 +9,6 @@ C:\Users\User\Desktop\GITHUB\01.C#\CSharp1-Homework1-Intro-Programming\ReadAndPr
 C:\Users\User\Desktop\upload\GITHUB\01.C#\CSharp1-Homework1-Intro-Programming\ReadAndPrintAge\bin\Debug\ReadAndPrintAge.exe.config
 C:\Users\User\Desktop\upload\GITHUB\01.C#\CSharp1-Homework1-Intro-Programming\ReadAndPrintAge\obj\Debug\ReadAndPrintAge.exe
 C:\Users\User\Desktop\upload\GITHUB\01.C#\CSharp1-Homework1-Intro-Programming\ReadAndPrintAge\obj\Debug\ReadAndPrintAge.pdb
+H:\Downloads\Repo\C#\CSharp1-Homework1-Intro-Programming\ReadAndPrintAge\bin\Debug\ReadAndPrintAge.exe.config
+H:\Downloads\Repo\C#\CSharp1-Homework1-Intro-Programming\ReadAndPrintAge\obj\Debug\ReadAndPrintAge.exe
+H:\Downloads\Repo\C#\CSharp1-Homework1-Intro-Programming\ReadAndPrintAge\obj\Debug\ReadAndPrintAge.pdb
