@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task 3</title>
+    <!--Write a function that makes a deep copy of an object. The function should work for both primitive and reference types-->
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        //First turns the object into a string and breaks the reference to the original object. Second - parses the string to an object again. The new object has no connection to the original object after this operation!!
+        function makeDeepCopy(obj) {
+            return JSON.parse(JSON.stringify(obj));
+        }
+
+        var student = {
+            firstName: "Petya",
+            lastName: "Kostova",
+            age: 25
+        }
+       
+        jsConsole.writeLine("Object student --- last name: " + student.lastName);
+        var copiedStudent = makeDeepCopy(student);
+        jsConsole.writeLine("Object deep copy of student --- last name: " + copiedStudent.lastName);
+        copiedStudent.lastName = "Ivanova";
+        jsConsole.writeLine("Object deep copy of student(after changing last name) --- last name: " + copiedStudent.lastName);
+        jsConsole.writeLine("Object student --- last name: " + student.lastName);
+    </script>
+</body>
+</html>
