@@ -45,7 +45,7 @@ class LastDigitAsAWord
     {
         Console.WriteLine("Enter an integer number: ");
         int number = int.Parse(Console.ReadLine());
-        int lastDigit = Math.Abs(number % 10);              // we need Math.Abs because the entered integer number could be negative.
+        int lastDigit = Math.Abs(number % 10);           
         ReturnLastDigitAsAWord(lastDigit);
     }
 }
