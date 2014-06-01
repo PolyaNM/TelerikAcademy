@@ -45,7 +45,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ThreeDimensionalUtils.cs" />
     <Compile Include="TwoDimensionalUtils.cs" />
-    <Compile Include="Utils.cs" />
     <Compile Include="UtilsExamples.cs" />
   </ItemGroup>
   <ItemGroup>

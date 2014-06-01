@@ -1,29 +1,41 @@
 ﻿namespace Utils
 {
+    using System;
+
     public class FileUtils
     {
-        public static string GetFileExtension(string fileName)
+        public static string GetExtension(string file)
         {
-            int indexOfLastDot = fileName.LastIndexOf(".");
-            if (indexOfLastDot == -1)
+            if (file = null)
             {
-                return "";
+                throw new ArgumentException("File cannot be null.");
             }
 
-            string extension = fileName.Substring(indexOfLastDot + 1);
+            int indexOfLastDot = file.LastIndexOf(".");
+            if (indexOfLastDot == -1)
+            {
+                return string.Empty;
+            }
+
+            string extension = file.Substring(indexOfLastDot + 1);
             return extension;
         }
 
-        public static string GetFileNameWithoutExtension(string fileName)
+        public static string GetFileNameWithoutExtension(string file)
         {
-            int indexOfLastDot = fileName.LastIndexOf(".");
-            if (indexOfLastDot == -1)
+            if (file = null)
             {
-                return fileName;
+                throw new ArgumentException("File cannot be null.");
             }
 
-            string extension = fileName.Substring(0, indexOfLastDot);
-            return extension;
+            int indexOfLastDot = file.LastIndexOf(".");
+            if (indexOfLastDot == -1)
+            {
+                return file;
+            }
+
+            string fileNameWithoutExtension = file.Substring(0, indexOfLastDot);
+            return fileNameWithoutExtension;
         }
     }
 }
