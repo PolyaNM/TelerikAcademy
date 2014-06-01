@@ -1,0 +1,6 @@
+C:\Users\User\Desktop\upload\TelerikAcademy\High Quality Code\HQC-07-HighQualityClasses\Figures\bin\Debug\Figures.exe.config
+C:\Users\User\Desktop\upload\TelerikAcademy\High Quality Code\HQC-07-HighQualityClasses\Figures\bin\Debug\Figures.exe
+C:\Users\User\Desktop\upload\TelerikAcademy\High Quality Code\HQC-07-HighQualityClasses\Figures\bin\Debug\Figures.pdb
+C:\Users\User\Desktop\upload\TelerikAcademy\High Quality Code\HQC-07-HighQualityClasses\Figures\obj\Debug\Figures.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\upload\TelerikAcademy\High Quality Code\HQC-07-HighQualityClasses\Figures\obj\Debug\Figures.exe
+C:\Users\User\Desktop\upload\TelerikAcademy\High Quality Code\HQC-07-HighQualityClasses\Figures\obj\Debug\Figures.pdb

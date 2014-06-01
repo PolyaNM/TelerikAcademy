@@ -1,0 +1,12 @@
+C:\Users\User\Desktop\HQC-06-HighQualityMethods\Methods\bin\Debug\Methods.exe.config
+C:\Users\User\Desktop\HQC-06-HighQualityMethods\Methods\bin\Debug\Methods.exe
+C:\Users\User\Desktop\HQC-06-HighQualityMethods\Methods\bin\Debug\Methods.pdb
+C:\Users\User\Desktop\HQC-06-HighQualityMethods\Methods\obj\Debug\Methods.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\HQC-06-HighQualityMethods\Methods\obj\Debug\Methods.exe
+C:\Users\User\Desktop\HQC-06-HighQualityMethods\Methods\obj\Debug\Methods.pdb
+C:\Users\User\Desktop\upload\TelerikAcademy\High Quality Code\HQC-06-HighQualityMethods\Methods\bin\Debug\Methods.exe.config
+C:\Users\User\Desktop\upload\TelerikAcademy\High Quality Code\HQC-06-HighQualityMethods\Methods\obj\Debug\Methods.exe
+C:\Users\User\Desktop\upload\TelerikAcademy\High Quality Code\HQC-06-HighQualityMethods\Methods\obj\Debug\Methods.pdb
+C:\Users\User\Desktop\upload\TelerikAcademy\High Quality Code\HQC-06-HighQualityMethods\Methods\obj\Debug\Methods.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\upload\TelerikAcademy\High Quality Code\HQC-06-HighQualityMethods\Methods\bin\Debug\Methods.exe
+C:\Users\User\Desktop\upload\TelerikAcademy\High Quality Code\HQC-06-HighQualityMethods\Methods\bin\Debug\Methods.pdb
