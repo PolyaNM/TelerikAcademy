@@ -2,7 +2,7 @@
 {
     using System;
 
-    public class FileUtils
+    public static class FileUtils
     {
         public static string GetExtension(string file)
         {

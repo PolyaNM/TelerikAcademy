@@ -55,10 +55,10 @@
             return perimeter;
         }
 
-        public override double CalcSurface()
+        public override double CalcArea()
         {
-            double surface = this.Width * this.Height;
-            return surface;
+            double area = this.Width * this.Height;
+            return area;
         }
     }
 }

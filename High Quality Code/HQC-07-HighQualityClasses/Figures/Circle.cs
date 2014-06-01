@@ -35,10 +35,10 @@
             return perimeter;
         }
 
-        public override double CalcSurface()
+        public override double CalcArea()
         {
-            double surface = Math.PI * this.Radius * this.Radius;
-            return surface;
+            double area = Math.PI * this.Radius * this.Radius;
+            return area;
         }
     }
 }

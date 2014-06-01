@@ -4,6 +4,6 @@
     {
         public abstract double CalcPerimeter();
 
-        public abstract double CalcSurface();
+        public abstract double CalcArea();
     }
 }

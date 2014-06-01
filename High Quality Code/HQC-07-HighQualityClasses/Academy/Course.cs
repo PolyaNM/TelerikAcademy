@@ -6,6 +6,13 @@
         private string teacherName;
         private IList<string> students;
 
+        protected Course(string name, string teacherName, IList<string> students)
+        {
+            this.Name = name;
+            this.TeacherName = teacherName;
+            this.Students = students;
+        }
+
         public string Name
         {
             get
@@ -38,9 +45,11 @@
                     throw new ArgumentException("Teacher name cannot be null or empty.");
                 }
 
-                this.name = value;
+                this.teacherName = value;
             }
         }
+
+
 
     }
 }
