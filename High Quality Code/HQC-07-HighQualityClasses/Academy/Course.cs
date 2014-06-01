@@ -22,7 +22,7 @@
 
             set
             {
-                if (string.IsNullOrWhiteSpace(value))
+                if (string.IsNullOrEmpty(value))
                 {
                     throw new ArgumentException("Course name cannot be null or empty.");
                 }
@@ -40,7 +40,7 @@
 
             set
             {
-                if (string.IsNullOrWhiteSpace(value))
+                if (string.IsNullOrEmpty(value))
                 {
                     throw new ArgumentException("Teacher name cannot be null or empty.");
                 }
@@ -48,8 +48,5 @@
                 this.teacherName = value;
             }
         }
-
-
-
     }
 }

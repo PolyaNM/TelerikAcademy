@@ -50,7 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Utils\Utils.csproj">
-      <Project>{5abee13b-82f9-45e5-825a-1e60913d36f2}</Project>
+      <Project>{7af1d809-3444-44d1-ba24-b0b878fa54e7}</Project>
       <Name>Utils</Name>
     </ProjectReference>
   </ItemGroup>

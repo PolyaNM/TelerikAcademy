@@ -6,7 +6,7 @@
     {
         public static string GetExtension(string file)
         {
-            if (file = null)
+            if (file == null)
             {
                 throw new ArgumentException("File cannot be null.");
             }
@@ -23,7 +23,7 @@
 
         public static string GetFileNameWithoutExtension(string file)
         {
-            if (file = null)
+            if (file == null)
             {
                 throw new ArgumentException("File cannot be null.");
             }
