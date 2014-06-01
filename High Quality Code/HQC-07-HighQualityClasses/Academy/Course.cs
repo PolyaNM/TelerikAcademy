@@ -1,26 +1,19 @@
-﻿using System.Collections.Generic;
-namespace Academy
+﻿namespace Academy
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Text;
+
     public abstract class Course
     {
         private string name;
         private string teacherName;
-        private IList<string> students;
+        private IList<string> students = new List<string>();
 
-        protected Course(string name)
+        protected Course(string name, string teacherName, IList<string> students)
         {
-
             this.Name = name;
-        }
-
-        protected Course(string name, string teacherName) : this(name)
-        {
-
             this.TeacherName = teacherName;
-        }
-
-        protected Course(string name, string teacherName, IList<string> students) : this(name, teacherName)
-        {
             this.Students = students;
         }
 
@@ -51,11 +44,6 @@ namespace Academy
 
             set
             {
-                if (string.IsNullOrEmpty(value))
-                {
-                    throw new ArgumentException("Teacher name cannot be null or empty.");
-                }
-
                 this.teacherName = value;
             }
         }
@@ -69,32 +57,13 @@ namespace Academy
 
             set
             {
-                if (value != null)
-                {
-                    this.students = new List<string>(); 
-                    foreach (var student in value)
-                    {
-                        this.students.Add(student);
-                    }
-                }
-                else
-                {
-                    return this.students = null; 
-                }
-
+                this.students = value;
             }
         }
 
-        private string GetStudentsAsString()
+        public void AddStudent(string student)
         {
-            if (this.Students == null || this.Students.Count == 0)
-            {
-                return "{ }";
-            }
-            else
-            {
-                return "{ " + string.Join(", ", this.Students) + " }";
-            }
+            this.students.Add(student);
         }
 
         public override string ToString()
@@ -108,8 +77,19 @@ namespace Academy
             }
 
             result.AppendFormat("; Students = {0}", this.GetStudentsAsString());
-
             return result.ToString();
+        }
+
+        private string GetStudentsAsString()
+        {
+            if (this.Students == null || this.Students.Count == 0)
+            {
+                return "{ }";
+            }
+            else
+            {
+                return "{ " + string.Join(", ", this.Students) + " }";
+            }
         }
     }
 }

@@ -3,9 +3,9 @@
     using System;
     using System.Collections.Generic;
 
-    class CoursesExamples
+    public class CoursesExamples
     {
-        static void Main()
+        public static void Main()
         {
             LocalCourse localCourse = new LocalCourse("Databases");
             Console.WriteLine(localCourse);
