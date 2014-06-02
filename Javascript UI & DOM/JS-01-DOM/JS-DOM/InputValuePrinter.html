@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!--Create a function that gets the value of <input type="text"> ands prints its value to the console-->
+<head>
+    <title>Input value printer</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="input">Text: </label>
+            <input type="text" id="input" autofocus="autofocus" placeholder="Your text..." onchange="getText(this)" />
+        </div>
+    </form>
+    <span id="showText" style="color:blue"></span>
+    <script>
+    function getText(text) {
+        var result = document.getElementById('input').value;
+        console.log(result);
+
+        var newDiv = document.createElement('div');
+        newDiv.style.color = 'blue';
+        newDiv.innerHTML = result;
+        document.body.appendChild(newDiv);
+    }
+    </script>
+
+</body>
+</html>

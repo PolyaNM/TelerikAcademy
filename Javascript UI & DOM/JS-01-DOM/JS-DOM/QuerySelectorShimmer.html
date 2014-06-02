@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <script>
+        (function () {
+            (function querySelector(querry) {
+                if (!document.querySelector) {
+                    return document.getElementById(querry.substr(1));
+                }
+            }());
+
+            (function querySelectorAll(querry) {
+                if (!document.querySelectorAll) {
+                    switch (querry[0]) {
+                        case "#": return querySelector(querry); break;
+                        case '.': return document.getElementsByClassName(querry.substr(1)); break;
+                        default: return document.getElementsByTagName(querry); break;
+                    }
+                }
+            }());
+        }())
+    </script>
+</body>
+</html>

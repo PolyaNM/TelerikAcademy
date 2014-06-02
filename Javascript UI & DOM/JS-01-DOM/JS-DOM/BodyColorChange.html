@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!--Crеate a function that gets the value of <input type="color"> and sets the background of the body to this value-->
+<head>
+    <title>Color Change</title>
+</head>
+<body>
+    <input type="color" onchange="changeColor(this)" />
+    <script>
+        function changeColor(color) {
+            var bodyColor = color.value;
+            document.body.style.backgroundColor = bodyColor;
+        }
+    </script>
+</body>
+</html>
