@@ -1,0 +1,2 @@
+C:\Users\User\Desktop\upload\TelerikAcademy\High Quality Code\HQC-08-Assertions-and-Exceptions-Homework\Exceptions-Homework\obj\Debug\Exceptions-Homework.exe
+C:\Users\User\Desktop\upload\TelerikAcademy\High Quality Code\HQC-08-Assertions-and-Exceptions-Homework\Exceptions-Homework\obj\Debug\Exceptions-Homework.pdb

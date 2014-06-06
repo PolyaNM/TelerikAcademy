@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-public class ExceptionsHomework
+public class Exceptions
 {
     public static T[] Subsequence<T>(T[] arr, int startIndex, int length)
     {

@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.Linq;
 
-public class AssertionsHomework
+public class ArrayUtils
 {
     public static void SelectionSort<T>(T[] arr) where T : IComparable<T>
     {

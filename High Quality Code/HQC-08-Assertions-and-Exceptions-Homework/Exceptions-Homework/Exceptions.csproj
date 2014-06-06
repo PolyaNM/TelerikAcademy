@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ExceptionsHomework.cs" />
+    <Compile Include="Exceptions.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
