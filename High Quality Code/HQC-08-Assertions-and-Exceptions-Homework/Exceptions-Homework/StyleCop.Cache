@@ -141,9 +141,6 @@
     </timestamps>
     <violations />
   </sourcecode>
-  <project key="-179936190">
-    <configuration>DEBUG;TRACE</configuration>
-  </project>
   <sourcecode name="Exceptions.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2013.12.15 15:29:26.000</styleCop>
@@ -167,4 +164,7 @@
     </timestamps>
     <violations />
   </sourcecode>
+  <project key="-179936190">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
 </stylecopresultscache>

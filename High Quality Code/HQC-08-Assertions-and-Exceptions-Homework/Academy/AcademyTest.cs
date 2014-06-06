@@ -10,7 +10,6 @@
         {
             try
             {
-
                 List<Exam> peterExams = new List<Exam>()
                 {
                     new SimpleMathExam(2),
