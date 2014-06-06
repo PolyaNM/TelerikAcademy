@@ -4,3 +4,9 @@ C:\Users\User\Desktop\JS-02-Canvas\JS-Canvas\bin\JS_Canvas.pdb
 C:\Users\User\Desktop\JS-02-Canvas\JS-Canvas\obj\Debug\JS_Canvas.csprojResolveAssemblyReference.cache
 C:\Users\User\Desktop\JS-02-Canvas\JS-Canvas\obj\Debug\JS_Canvas.dll
 C:\Users\User\Desktop\JS-02-Canvas\JS-Canvas\obj\Debug\JS_Canvas.pdb
+C:\Users\User\Desktop\upload\TelerikAcademy\Javascript UI & DOM\JS-02-Canvas\JS-Canvas\bin\JS_Canvas.dll.config
+C:\Users\User\Desktop\upload\TelerikAcademy\Javascript UI & DOM\JS-02-Canvas\JS-Canvas\bin\JS_Canvas.dll
+C:\Users\User\Desktop\upload\TelerikAcademy\Javascript UI & DOM\JS-02-Canvas\JS-Canvas\bin\JS_Canvas.pdb
+C:\Users\User\Desktop\upload\TelerikAcademy\Javascript UI & DOM\JS-02-Canvas\JS-Canvas\obj\Debug\JS_Canvas.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\upload\TelerikAcademy\Javascript UI & DOM\JS-02-Canvas\JS-Canvas\obj\Debug\JS_Canvas.dll
+C:\Users\User\Desktop\upload\TelerikAcademy\Javascript UI & DOM\JS-02-Canvas\JS-Canvas\obj\Debug\JS_Canvas.pdb

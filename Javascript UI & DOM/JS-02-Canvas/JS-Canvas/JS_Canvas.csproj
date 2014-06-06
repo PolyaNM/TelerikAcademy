@@ -65,7 +65,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BouncingBall.html" />
     <Content Include="CanvasGraphics.html" />
+    <Content Include="scripts\bouncing-ball.js" />
     <Content Include="scripts\canvas-graphics.js" />
     <None Include="scripts\_references.js" />
     <Content Include="scripts\main.js" />

@@ -1,13 +1,13 @@
-﻿function onDrawGraphics() {
+﻿(function () {
     var canvasCtx = document.getElementById("the-canvas").getContext("2d"),
 
-        // colors used for drawing the graphics
-        pink = '#975B5B',
-        black = '#000000',
-        lightCyan = '#90CAD7',
-        darkCyan = '#194B56', // person's face - stroke
-        blue = '#396693',
-        lightBlue = '#468B9C'; // bike - stroke
+    // colors used for drawing the graphics
+    pink = '#975B5B',
+    black = '#000000',
+    lightCyan = '#90CAD7',
+    darkCyan = '#194B56', // person's face - stroke
+    blue = '#396693',
+    lightBlue = '#468B9C'; // bike - stroke
 
     // ======= HOUSE =======
     // outlines of the house
@@ -221,4 +221,4 @@
     canvasCtx.stroke();
     canvasCtx.fill();
     canvasCtx.closePath();
-}
+})();
