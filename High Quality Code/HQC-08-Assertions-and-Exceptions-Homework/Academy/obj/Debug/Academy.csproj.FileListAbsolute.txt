@@ -1,2 +1,0 @@
-C:\Users\User\Desktop\Assertions-and-Exceptions-Homework\Academy\bin\Debug\Academy.exe.config
-C:\Users\User\Desktop\upload\TelerikAcademy\High Quality Code\HQC-08-Assertions-and-Exceptions-Homework\Academy\bin\Debug\Academy.exe.config
