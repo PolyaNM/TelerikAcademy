@@ -1,8 +1,0 @@
-C:\Users\User\Desktop\GITHUB\06.КПК\QA-01-CodeFormatting\JS-MenuFunctions\bin\JS-MenuFunctions.dll.config
-C:\Users\User\Desktop\GITHUB\06.КПК\QA-01-CodeFormatting\JS-MenuFunctions\bin\JS-MenuFunctions.dll
-C:\Users\User\Desktop\GITHUB\06.КПК\QA-01-CodeFormatting\JS-MenuFunctions\bin\JS-MenuFunctions.pdb
-C:\Users\User\Desktop\GITHUB\06.КПК\QA-01-CodeFormatting\JS-MenuFunctions\bin\PowerCollections.dll
-C:\Users\User\Desktop\GITHUB\06.КПК\QA-01-CodeFormatting\JS-MenuFunctions\bin\PowerCollections.xml
-C:\Users\User\Desktop\GITHUB\06.КПК\QA-01-CodeFormatting\JS-MenuFunctions\obj\Debug\JS-MenuFunctions.csprojResolveAssemblyReference.cache
-C:\Users\User\Desktop\GITHUB\06.КПК\QA-01-CodeFormatting\JS-MenuFunctions\obj\Debug\JS-MenuFunctions.dll
-C:\Users\User\Desktop\GITHUB\06.КПК\QA-01-CodeFormatting\JS-MenuFunctions\obj\Debug\JS-MenuFunctions.pdb

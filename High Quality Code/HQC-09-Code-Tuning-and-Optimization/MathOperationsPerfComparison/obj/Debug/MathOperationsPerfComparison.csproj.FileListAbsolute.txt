@@ -1,6 +1,0 @@
-C:\Users\User\Desktop\HCQ -Code-Tuning-and-Optimization\MathOperationsPerfComparison\bin\Debug\MathOperationsPerfComparison.exe.config
-C:\Users\User\Desktop\HCQ -Code-Tuning-and-Optimization\MathOperationsPerfComparison\bin\Debug\MathOperationsPerfComparison.exe
-C:\Users\User\Desktop\HCQ -Code-Tuning-and-Optimization\MathOperationsPerfComparison\bin\Debug\MathOperationsPerfComparison.pdb
-C:\Users\User\Desktop\HCQ -Code-Tuning-and-Optimization\MathOperationsPerfComparison\obj\Debug\MathOperationsPerfComparison.csprojResolveAssemblyReference.cache
-C:\Users\User\Desktop\HCQ -Code-Tuning-and-Optimization\MathOperationsPerfComparison\obj\Debug\MathOperationsPerfComparison.exe
-C:\Users\User\Desktop\HCQ -Code-Tuning-and-Optimization\MathOperationsPerfComparison\obj\Debug\MathOperationsPerfComparison.pdb

@@ -21,7 +21,6 @@
 
         private static void DisplaySquareRootPerformance()
         {
-
             string floatMessage = "Square root of float:".PadRight(PaddingCount);
             DisplayPerformanceTime(
                 () =>

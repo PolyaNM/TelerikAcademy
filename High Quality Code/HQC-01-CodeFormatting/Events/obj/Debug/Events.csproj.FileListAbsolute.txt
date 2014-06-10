@@ -1,8 +1,0 @@
-C:\Users\User\Desktop\GITHUB\06.КПК\QA-01-CodeFormatting\Events\bin\Debug\Events.exe.config
-C:\Users\User\Desktop\GITHUB\06.КПК\QA-01-CodeFormatting\Events\bin\Debug\Events.exe
-C:\Users\User\Desktop\GITHUB\06.КПК\QA-01-CodeFormatting\Events\bin\Debug\Events.pdb
-C:\Users\User\Desktop\GITHUB\06.КПК\QA-01-CodeFormatting\Events\bin\Debug\PowerCollections.dll
-C:\Users\User\Desktop\GITHUB\06.КПК\QA-01-CodeFormatting\Events\bin\Debug\PowerCollections.xml
-C:\Users\User\Desktop\GITHUB\06.КПК\QA-01-CodeFormatting\Events\obj\Debug\Events.csprojResolveAssemblyReference.cache
-C:\Users\User\Desktop\GITHUB\06.КПК\QA-01-CodeFormatting\Events\obj\Debug\Events.exe
-C:\Users\User\Desktop\GITHUB\06.КПК\QA-01-CodeFormatting\Events\obj\Debug\Events.pdb
