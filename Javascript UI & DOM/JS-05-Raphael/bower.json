@@ -1,0 +1,19 @@
+{
+  "name": "JS-05-Raphael",
+  "version": "0.0.0",
+  "homepage": "https://github.com/PolyaNM/TelerikAcademy",
+  "authors": [
+    "PolyaNM <polya.nm@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "raphael": "~2.1.2"
+  }
+}
