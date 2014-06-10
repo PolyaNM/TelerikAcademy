@@ -1,0 +1,10 @@
+li {
+    list-style-type: none;
+}
+h1{
+	color: darkblue;
+	font-family: Times New Roman;
+}
+.selected {
+    background-color: yellow;
+}
