@@ -18,21 +18,15 @@
 
         var spiral = paper.path(spiralPoints)
             .attr({
-            stroke: 'yellowgreen',
+            stroke: 'orange',
             'stroke-width': 8
         })
             .animate({
+                transform: "r 360",
                 opacity: 0.2,
                 'stroke-width': 1,
                 stroke: 'yellow',
-                callback: function(){
-                    spiral.animate({
-                        stroke:'darkblue',
-                        opacity: 1,
-                        'stroke-width': 4
-                    }, 2000);
-                }
-            }, 2000)
+            }, 5000);
     }
 	drawSpiral(300, 300, 0, 8);
 })();

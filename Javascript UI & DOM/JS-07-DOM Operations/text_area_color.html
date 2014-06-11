@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Text Area Color</title>
+	<script>
+		function onChangeFontColor(value) {
+            document.getElementById('textarea').style.color = value;
+        }
+
+        function onChangeBackgroundColor(value) {
+            document.getElementById('textarea').style.backgroundColor = value;
+        }
+	</script>
+</head>
+<body>
+	<textarea id="textarea"></textarea> <br />
+	<input type="color" onchange="onChangeFontColor(this.value)"/> <span>Font</span> <br />
+    <input type="color" onchange="onChangeBackgroundColor(this.value)"/> <span>Background</span> <br />
+</body>
+</html>
