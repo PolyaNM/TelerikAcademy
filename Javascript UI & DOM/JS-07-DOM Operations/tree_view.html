@@ -5,58 +5,101 @@
 	<title>Tree View</title>
 </head>
 <body onload="onCreateTreeView()">
-	<ul>
-		<li>Item1
-			<ul>
-				<li>Sub Sub Item1</li>
-				<li>Sub Sub Item2</li>
-			</ul>
-			<ul>
-				<li>Sub Sub Item1</li>
-				<li>Sub Sub Item2</li>
-			</ul>
-		</li>
-		<li>Item2
-			<ul>
-				<li>Sub Sub Item1</li>
-				<li>Sub Sub Item2</li>
-			</ul>
-			<ul>
-				<li>Sub Sub Item1</li>
-				<li>Sub Sub Item2</li>
-			</ul>
-		</li>
-		<li>Item3
-			<ul>
-				<li>Sub Sub Item1</li>
-				<li>Sub Sub Item2</li>
-			</ul>
-			<ul>
-				<li>Sub Sub Item1</li>
-				<li>Sub Sub Item2</li>
-			</ul>
-		</li>
-		<li>Item4
-			<ul>
-				<li>Sub Sub Item1</li>
-				<li>Sub Sub Item2</li>
-			</ul>
-			<ul>
-				<li>Sub Sub Item1</li>
-				<li>Sub Sub Item2</li>
-			</ul>
-		</li>
-		<li>Item5
-			<ul>
-				<li>Sub Sub Item1</li>
-				<li>Sub Sub Item2</li>
-			</ul>
-			<ul>
-				<li>Sub Sub Item1</li>
-				<li>Sub Sub Item2</li>
-			</ul>
-		</li>
-	</ul>
+ <ul>
+        <li>Item
+            <ul>
+                <li>Sub item
+                    <ul>
+                        <li>Sub sub item</li>
+                        <li>Sub sub item</li>
+                    </ul>
+                </li>
+                <li>
+                    Sub item
+                    <ul>
+                        <li>Sub sub item</li>
+                        <li>Sub sub item</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>
+            Item
+            <ul>
+                <li>
+                    Sub item
+                    <ul>
+                        <li>Sub sub item</li>
+                        <li>Sub sub item</li>
+                    </ul>
+                </li>
+                <li>
+                    Sub item
+                    <ul>
+                        <li>Sub sub item</li>
+                        <li>Sub sub item</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>
+            Item
+            <ul>
+                <li>
+                    Sub item
+                    <ul>
+                        <li>Sub sub item</li>
+                        <li>Sub sub item</li>
+                    </ul>
+                </li>
+                <li>
+                    Sub item
+                    <ul>
+                        <li>Sub sub item</li>
+                        <li>Sub sub item</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>
+            Item
+            <ul>
+                <li>
+                    Sub item
+                    <ul>
+                        <li>Sub sub item</li>
+                        <li>Sub sub item</li>
+                    </ul>
+                </li>
+                <li>
+                    Sub item
+                    <ul>
+                        <li>Sub sub item</li>
+                        <li>Sub sub item</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>
+            Item
+            <ul>
+                <li>
+                    Sub item
+                    <ul>
+                        <li>Sub sub item</li>
+                        <li>Sub sub item</li>
+                    </ul>
+                </li>
+                <li>
+                    Sub item
+                    <ul>
+                        <li>Sub sub item</li>
+                        <li>Sub sub item</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
 	<script>
 	function onCreateTreeView() {
             var allLi = document.getElementsByTagName('li');
@@ -70,10 +113,7 @@
                     child = child.nextElementSibling;
                 }
 
-                //setting the onclickFunction
                 allLi[i].onclick = function (event) {
-
-                    //delete this and the function will go to the parent element as well
                     event.stopPropagation();
 
                     var currChild = this.firstElementChild;
