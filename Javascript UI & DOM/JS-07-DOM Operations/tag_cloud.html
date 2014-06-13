@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tag Cloud</title>
+	<style>
+	textarea{
+		width:300px;
+		height: 110px;
+		float: left;
+	}
+	input{
+		display:block;
+		width: 115px;
+	}
+	span{
+		font-weight: bold;
+	}
+	</style>
+</head>
+<body>
+	<textarea id="tags">cms, javascript, js, ASP.NET MVC, .net, .net, css, wordpress, xaml, js, http, web, asp.net, asp.net MVC, ASP.NET MVC, wp, javascript, js, cms, html, javascript, http, http, CMS</textarea>
+	<span>Min Font Size(px)</span><input id="minFontSize" type="number" value="17">
+	<span>Max Font Size(px)</span><input id="maxFontSize" type="number" value="42">
+	<button onclick="onGenerateTagCloud()">Generate Cloud!</button>
+	<script src="scripts/tag-cloud.js"></script>
+	<div id="result"></div>
+</body>
+</html>
