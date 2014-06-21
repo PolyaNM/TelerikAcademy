@@ -1,0 +1,6 @@
+C:\Users\User\Documents\Visual Studio 2013\Projects\03.OOP - ExtensionMethodsLambdaLINQ\17.MaxLengthString\bin\Debug\17.MaxLengthString.exe.config
+C:\Users\User\Documents\Visual Studio 2013\Projects\03.OOP - ExtensionMethodsLambdaLINQ\17.MaxLengthString\obj\Debug\17.MaxLengthString.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2013\Projects\03.OOP - ExtensionMethodsLambdaLINQ\17.MaxLengthString\bin\Debug\17.MaxLengthString.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\03.OOP - ExtensionMethodsLambdaLINQ\17.MaxLengthString\bin\Debug\17.MaxLengthString.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\03.OOP - ExtensionMethodsLambdaLINQ\17.MaxLengthString\obj\Debug\17.MaxLengthString.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\03.OOP - ExtensionMethodsLambdaLINQ\17.MaxLengthString\obj\Debug\17.MaxLengthString.pdb

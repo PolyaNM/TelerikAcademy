@@ -1,0 +1,6 @@
+c:\users\user\documents\visual studio 2013\Projects\06.OOP - CommponTypeSystem\06.OOP - CommponTypeSystem\bin\Debug\06.OOP - CommponTypeSystem.exe.config
+c:\users\user\documents\visual studio 2013\Projects\06.OOP - CommponTypeSystem\06.OOP - CommponTypeSystem\bin\Debug\06.OOP - CommponTypeSystem.exe
+c:\users\user\documents\visual studio 2013\Projects\06.OOP - CommponTypeSystem\06.OOP - CommponTypeSystem\bin\Debug\06.OOP - CommponTypeSystem.pdb
+c:\users\user\documents\visual studio 2013\Projects\06.OOP - CommponTypeSystem\06.OOP - CommponTypeSystem\obj\Debug\Student.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2013\Projects\06.OOP - CommponTypeSystem\06.OOP - CommponTypeSystem\obj\Debug\06.OOP - CommponTypeSystem.exe
+c:\users\user\documents\visual studio 2013\Projects\06.OOP - CommponTypeSystem\06.OOP - CommponTypeSystem\obj\Debug\06.OOP - CommponTypeSystem.pdb

@@ -1,0 +1,2 @@
+C:\Users\User\Documents\Visual Studio 2013\Projects\02.OOP - DefiningClasses2\ClassGenericList\bin\Debug\ClassGenericList.exe.config
+C:\Users\User\Desktop\upload\GITHUB\02.OOP\02.OOP - DefiningClasses2\ClassGenericList\bin\Debug\ClassGenericList.exe.config

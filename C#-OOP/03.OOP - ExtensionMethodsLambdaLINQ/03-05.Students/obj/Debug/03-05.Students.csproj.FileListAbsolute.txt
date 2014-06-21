@@ -1,0 +1,6 @@
+C:\Users\User\Documents\Visual Studio 2013\Projects\03.OOP - ExtensionMethodsLambdaLINQ\03-05.Students\bin\Debug\03-05.Students.exe.config
+C:\Users\User\Documents\Visual Studio 2013\Projects\03.OOP - ExtensionMethodsLambdaLINQ\03-05.Students\bin\Debug\03-05.Students.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\03.OOP - ExtensionMethodsLambdaLINQ\03-05.Students\bin\Debug\03-05.Students.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\03.OOP - ExtensionMethodsLambdaLINQ\03-05.Students\obj\Debug\03-05.Students.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2013\Projects\03.OOP - ExtensionMethodsLambdaLINQ\03-05.Students\obj\Debug\03-05.Students.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\03.OOP - ExtensionMethodsLambdaLINQ\03-05.Students\obj\Debug\03-05.Students.pdb

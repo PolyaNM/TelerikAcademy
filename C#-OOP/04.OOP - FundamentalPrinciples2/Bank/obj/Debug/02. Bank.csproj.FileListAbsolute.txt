@@ -1,0 +1,5 @@
+c:\users\user\documents\visual studio 2013\Projects\04.OOP - FundamentalPrinciples2\Bank\bin\Debug\Bank.exe.config
+c:\users\user\documents\visual studio 2013\Projects\04.OOP - FundamentalPrinciples2\Bank\bin\Debug\Bank.exe
+c:\users\user\documents\visual studio 2013\Projects\04.OOP - FundamentalPrinciples2\Bank\bin\Debug\Bank.pdb
+c:\users\user\documents\visual studio 2013\Projects\04.OOP - FundamentalPrinciples2\Bank\obj\Debug\Bank.exe
+c:\users\user\documents\visual studio 2013\Projects\04.OOP - FundamentalPrinciples2\Bank\obj\Debug\Bank.pdb

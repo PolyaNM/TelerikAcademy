@@ -1,0 +1,34 @@
+﻿namespace Shapes
+{
+    using System;
+    public class Circle : Shape
+    {
+        public Circle(double radius)
+            : base(radius, radius)
+        {
+        }
+
+        public override double Height
+        {
+            get
+            {
+                return base.Height;
+            }
+            set
+            {
+                if (value != base.Width)
+                {
+                    throw new ArgumentException("Height must be equal to width!");
+                }
+                else
+                {
+                    base.Height = value;
+                }
+            }
+        }
+        public override double CalculateSurface()
+        {
+            return this.Height * this.Height * Math.PI;
+        }
+    }
+}

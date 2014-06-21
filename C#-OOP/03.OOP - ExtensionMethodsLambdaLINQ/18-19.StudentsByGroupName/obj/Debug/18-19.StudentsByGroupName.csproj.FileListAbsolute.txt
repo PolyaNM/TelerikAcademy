@@ -1,0 +1,5 @@
+C:\Users\User\Documents\Visual Studio 2013\Projects\03.OOP - ExtensionMethodsLambdaLINQ\18-19.StudentsByGroupName\bin\Debug\18-19.StudentsByGroupName.exe.config
+C:\Users\User\Documents\Visual Studio 2013\Projects\03.OOP - ExtensionMethodsLambdaLINQ\18-19.StudentsByGroupName\bin\Debug\18-19.StudentsByGroupName.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\03.OOP - ExtensionMethodsLambdaLINQ\18-19.StudentsByGroupName\bin\Debug\18-19.StudentsByGroupName.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\03.OOP - ExtensionMethodsLambdaLINQ\18-19.StudentsByGroupName\obj\Debug\18-19.StudentsByGroupName.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\03.OOP - ExtensionMethodsLambdaLINQ\18-19.StudentsByGroupName\obj\Debug\18-19.StudentsByGroupName.pdb

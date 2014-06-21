@@ -1,0 +1,6 @@
+c:\users\user\documents\visual studio 2013\Projects\04.OOP - FundamentalPrinciples2\InvalidRangeException\bin\Debug\InvalidRangeException.exe.config
+C:\Users\User\Documents\Visual Studio 2013\Projects\04.OOP - FundamentalPrinciples2\InvalidRangeException\bin\Debug\InvalidRangeException.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\04.OOP - FundamentalPrinciples2\InvalidRangeException\bin\Debug\InvalidRangeException.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\04.OOP - FundamentalPrinciples2\InvalidRangeException\obj\Debug\InvalidRangeException.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2013\Projects\04.OOP - FundamentalPrinciples2\InvalidRangeException\obj\Debug\InvalidRangeException.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\04.OOP - FundamentalPrinciples2\InvalidRangeException\obj\Debug\InvalidRangeException.pdb
