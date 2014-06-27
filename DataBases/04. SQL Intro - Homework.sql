@@ -46,11 +46,11 @@ Where FirstName LIKE 'SA%'
 
 --12.Write a SQL query to find the names of all employees whose last name contains "ei".
 SELECT FirstName + ' ' + LastName AS Name FROM Employees
-WHERE LASTNAME LIKE '%ei%'
+WHERE LastName LIKE '%ei%'
 
 --13.Write a SQL query to find the salary of all employees whose salary is in the range [20000…30000]
 SELECT FirstName + ' ' + LastName AS Name, Salary FROM Employees
-WHERE SALARY BETWEEN 20000 AND 30000
+WHERE Salary BETWEEN 20000 AND 30000
 
 --14.Write a SQL query to find the names of all employees whose salary is 25000, 14000, 12500 or 23600.
 SELECT FirstName + ' ' + LastName AS Name, Salary FROM Employees
@@ -92,7 +92,8 @@ SELECT Name FROM Departments
 UNION 
 SELECT Name FROM Towns
 
---23.Write a SQL query to find all the employees and the manager for each of them along with the employees that do not have manager. Use right outer join. Rewrite the query to use left outer join.
+--23.Write a SQL query to find all the employees and the manager for each of them along with the employees that do not have manager. Use right outer join. 
+--Rewrite the query to use left outer join.
 SELECT e.FirstName + ' ' + e.LastName AS EmployeeName, m.FirstName + ' ' + m.LastName AS Manager FROM Employees m
 RIGHT JOIN Employees e ON e.ManagerID = m.EmployeeID
 
